@@ -1,0 +1,8 @@
+id|module|action|group_name|access
+1|*|*|admins|allow
+2|admin|*|admins|allow
+3|admin|*|*|deny
+4|auth|login|unregistered|allow
+5|auth|*|*|deny
+6!files|l|unregisterd|deny
+7|files|*|*|allow

@@ -1,0 +1,979 @@
+# Alessandro Briosi <tsdogs@briosix.org>, 2009.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenUpload default template\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-03-06 22:33+0100\n"
+"PO-Revision-Date: 2009-03-07 19:58+0100\n"
+"Last-Translator: Alessandro Briosi <tsdogs@briosix.org>\n"
+"Language-Team: Robin He (HE.Chu) <i18n-translation@lists.linux.net.cn>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Chinese\n"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:2
+msgid "Your IP has been blocked!"
+msgstr "你的IP已经被屏蔽！"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:5
+msgid "You cannot use this site."
+msgstr "你不能使用本站。"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:8
+msgid "If you think this is a misconfiguration please send an email to the site owner"
+msgstr "如果你认为这是个错误地配置，请给站长发送邮件报告。"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:11
+msgid "Captcha code"
+msgstr "验证码"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:14
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:20
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:32
+msgid "Reload Image"
+msgstr "重载图片"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:17
+msgid "Please enter the following captcha to proceed for the removal"
+msgstr "请输入下面的验证码开始处理删除"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:23
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:44
+msgid "Protection"
+msgstr "保护"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:26
+msgid "Captcha"
+msgstr "验证信息"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:29
+msgid "Please enter the following captcha to proceed for the download"
+msgstr "请输入下面的验证码开始处理下载"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:35
+msgid "Use Captcha"
+msgstr "使用验证码"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:38
+msgid "Compress the files"
+msgstr "压缩文件"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:41
+msgid "No compression"
+msgstr "未压缩"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:47
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:53
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:68
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:89
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:245
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:737
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:941
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:992
+msgid "Password"
+msgstr "密码"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:50
+msgid "The download is password protected."
+msgstr "本下载已经被密码保护。"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:56
+msgid "Password protect"
+msgstr "密码保护"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:59
+msgid "Send password in e-mail"
+msgstr "通过邮件发送密码"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:62
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:83
+msgid "You are receiving this message because someone uploaded a file on our OpenUpload server for you."
+msgstr "你收到本信息是因为某人在我们的OpenUpload服务器上为你上载了一个文件。"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:65
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:86
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:206
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:215
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:293
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:644
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:791
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:887
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:911
+msgid "Description"
+msgstr "说明"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:71
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:92
+msgid "User message"
+msgstr "用户消息"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:74
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:95
+msgid "To download the file open the following link in a browser"
+msgstr "在浏览器中打开下面的链接开始下载"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:77
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:98
+msgid "To remove the file from our server open the following link in a browser"
+msgstr "在浏览器中打开下面的链接，从本服务器中删除这个文件"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:80
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:101
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:968
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:983
+msgid "For complains please send an email to"
+msgstr "投诉请发邮件至"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:104
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:125
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:131
+msgid "Send me an e-mail"
+msgstr "给我发邮件"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:107
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:122
+msgid "Send"
+msgstr "发送"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:110
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:134
+msgid "Send e-mail to"
+msgstr "发送电子邮件至"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:113
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:137
+msgid "Send remove link"
+msgstr "发送删除链接"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:116
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:140
+msgid "e-mail Subject"
+msgstr "邮件主题"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:119
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:143
+msgid "e-mail Message"
+msgstr "邮件正文信息"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:128
+msgid "Your e-mail address"
+msgstr "你的电子邮件地址"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:146
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:149
+msgid "Expires on"
+msgstr "超时于"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:152
+msgid "Only the following mime types are allowed"
+msgstr "仅允许如下的mime-type类型"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:155
+msgid "Are you sure you want to delete the selected plugins?"
+msgstr "确认需要删除选中的所有插件么？"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:158
+msgid "Are you sure you want to delete the selected plugin?"
+msgstr "确认需要删除选中的插件么？"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:161
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:275
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:767
+msgid "S"
+msgstr "S"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:164
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:302
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:323
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:437
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:827
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:905
+msgid "ID"
+msgstr "ID"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:167
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:179
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:290
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:497
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:623
+msgid "Plugin"
+msgstr "插件"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:170
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:182
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:257
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:317
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:347
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:554
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:626
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:707
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:728
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:749
+msgid "Group"
+msgstr "组"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:173
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:185
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:194
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:281
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:614
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:629
+msgid "Access"
+msgstr "访问"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:176
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:287
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:314
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:350
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:563
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:647
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:785
+msgid "Actions"
+msgstr "动作"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:188
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:620
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:758
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:794
+msgid "Add"
+msgstr "新增"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:191
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:278
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:611
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:779
+msgid "IP"
+msgstr "IP地址"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:197
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:284
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:617
+msgid "Priority"
+msgstr "优先级"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:200
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:209
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:266
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:320
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:341
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:455
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:632
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:731
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:1061
+msgid "Confirm"
+msgstr "确认"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:203
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:305
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:326
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:440
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:551
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:773
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:788
+msgid "Name"
+msgstr "名字"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:218
+msgid "Rights set?"
+msgstr "权限设定？"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:221
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:686
+msgid "Any"
+msgstr "任何"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:224
+msgid "Yes"
+msgstr "是"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:227
+msgid "No"
+msgstr "否"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:230
+msgid "Plugins ACL"
+msgstr "插件访问控制列表"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:233
+msgid "Plugins Options"
+msgstr "插件选项"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:236
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:566
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:653
+msgid "Settings"
+msgstr "设置"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:239
+msgid "Options"
+msgstr "选项"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:242
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:734
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:938
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:1010
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:1037
+msgid "Login name"
+msgstr "登录名"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:248
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:740
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:944
+msgid "Retype Password"
+msgstr "重新输入密码"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:251
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:743
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:947
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:1013
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:1040
+msgid "Full Name"
+msgstr "全名"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:254
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:746
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:950
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:1016
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:1043
+msgid "e-mail"
+msgstr "电子邮件"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:260
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:752
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:953
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:1046
+msgid "Preferred language"
+msgstr "首选语言"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:263
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:311
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:338
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:452
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:560
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:755
+msgid "Active"
+msgstr "活跃"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:269
+msgid "Are you sure you want to delete the selected banned ips?"
+msgstr "确认删除选中的所有屏蔽IP地址？"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:272
+msgid "Are you sure you want to delete the selected banned ip?"
+msgstr "确认删除选中的屏蔽IP地址？"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:296
+msgid "Are you sure you want to delete the selected languages?"
+msgstr "确认删除选中的所有语言？"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:299
+msgid "Are you sure you want to delete the selected language?"
+msgstr "确认删除选中的语言？"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:308
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:329
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:443
+msgid "Locale"
+msgstr "本地化"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:332
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:446
+msgid "Browser recon"
+msgstr "浏览器检测"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:335
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:449
+msgid "Charset"
+msgstr "字符集"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:344
+msgid "Plugin does not have any option to be configured"
+msgstr "插件没有任何可配置项"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:353
+msgid "Translation module"
+msgstr "翻译模块"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:356
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:368
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:386
+msgid "Select one"
+msgstr "选择一个"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:359
+msgid "Default language"
+msgstr "默认语言"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:362
+msgid "Authentication module"
+msgstr "认证模块"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:365
+msgid "(LDAP Configuration needs to be done<br /> by hand for now)"
+msgstr "(LDAP需要现在被完整手动配置)"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:371
+msgid "Site title"
+msgstr "站点标题"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:374
+msgid "WebMaster E-mail"
+msgstr "WEB管理员电子邮箱"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:377
+msgid "Site E-mail"
+msgstr "发送电子邮件"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:380
+msgid "Confirm registration with e-mail"
+msgstr "通过邮件确认注册"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:383
+msgid "Template"
+msgstr "模板"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:389
+msgid "Template Footer"
+msgstr "模板脚"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:392
+msgid "Maximum upload size (in MB)"
+msgstr "最大上传尺寸（单位:MB）"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:395
+msgid "Maximum download time (in Min)"
+msgstr "最大下载时间（单位:分钟）"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:398
+#, fuzzy
+msgid "0 disables it"
+msgstr "0 disables it"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:401
+msgid "Max num. of file uploaded per upload"
+msgstr "每次上传的最多上传数"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:404
+msgid "Use shorter links?"
+msgstr "使用短链接？"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:407
+msgid "Length of IDs (suggested min 6)"
+msgstr "ID长度（建议最少为6）"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:410
+msgid "Use alphanumerical IDs?"
+msgstr "使用字母数字混合编制的的ID？"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:413
+msgid "Allow unprotected file removal?"
+msgstr "允许未保护的文件删除？"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:416
+msgid "Upload tracking method"
+msgstr "上传追踪方法"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:419
+msgid "Enable activity logging?"
+msgstr "允许活动日志？"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:422
+msgid "Database logging level"
+msgstr "数据库日志级别"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:425
+msgid "Syslog logging level"
+msgstr "Syslog 日志级别"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:428
+msgid "Save Changes"
+msgstr "保存更改"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:431
+msgid "Download config file"
+msgstr "下载配置文件"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:434
+msgid "This are the configured settings for a review"
+msgstr "复查如下的配置项"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:458
+msgid "Filter"
+msgstr "过滤器"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:461
+msgid "All"
+msgstr "所有"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:464
+msgid "Errors"
+msgstr "错误"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:467
+msgid "Security"
+msgstr "安全"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:470
+msgid "Warnings"
+msgstr "警告"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:473
+msgid "Notice"
+msgstr "通知"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:476
+msgid "Info"
+msgstr "信息"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:479
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:833
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:914
+msgid "Date"
+msgstr "日期"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:482
+msgid "Type"
+msgstr "类型"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:485
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:776
+msgid "User"
+msgstr "用户"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:488
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:689
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:710
+msgid "Module"
+msgstr "模块"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:491
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:692
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:713
+msgid "Action"
+msgstr "动作"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:494
+msgid "Real Action"
+msgstr "真实动作"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:500
+msgid "Result"
+msgstr "结果"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:503
+msgid "Additional Info"
+msgstr "附加信息"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:506
+msgid "Maintenence"
+msgstr "维护"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:509
+msgid "This options let you delete files based on some options."
+msgstr "根据本选项删除你的文件"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:512
+msgid "Please select one or more criteria for file deletion"
+msgstr "请选择一个或者多个文件删除的标准"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:515
+msgid "Delete files older than"
+msgstr "删除超过日期的文件"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:518
+msgid "days"
+msgstr "天"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:521
+msgid "Which user name is"
+msgstr "用户名为"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:524
+msgid "Which upload day is"
+msgstr "上传日期为"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:527
+msgid "Which size is bigger than"
+msgstr "文件尺寸大于"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:530
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:800
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:824
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:860
+msgid "Proceed"
+msgstr "继续"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:533
+msgid "Expiration plugin"
+msgstr "过期插件"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:536
+msgid "To delete files marked as expired by the expire plugin press the \"Delete expired\" button."
+msgstr "选择\"删除过期\"按钮删除用过期插件标记为过期的文件。"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:539
+msgid "Delete expired"
+msgstr "删除过期"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:542
+msgid "Are you sure you want to delete the selected users?"
+msgstr "确认删除这些选中的用户么？"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:545
+msgid "Are you sure you want to delete the selected user?"
+msgstr "确认删除选中的用户么？"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:548
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:995
+msgid "Login"
+msgstr "登录"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:557
+msgid "E-mail"
+msgstr "电子邮件"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:569
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:656
+msgid "Plugins"
+msgstr "插件"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:572
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:659
+msgid "Files"
+msgstr "文件"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:575
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:662
+msgid "Users"
+msgstr "用户"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:578
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:665
+msgid "Groups"
+msgstr "组"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:581
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:668
+msgid "Rights"
+msgstr "权限"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:584
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:671
+msgid "Languages"
+msgstr "语言"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:587
+msgid "Banned"
+msgstr "禁止"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:590
+msgid "Logs"
+msgstr "日志"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:593
+msgid "Deletion Result"
+msgstr "删除结果"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:596
+msgid "The following files have been deleted."
+msgstr "如下文件已被删除。"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:599
+msgid "The following files will be deleted, proceed?"
+msgstr "如下文件将被删除，是否继续？"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:602
+msgid "Yes, delete all"
+msgstr "是，删除所有"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:605
+msgid "No files matched the criteria"
+msgstr "没有符合标准的文件"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:608
+msgid "Back to Maintenance"
+msgstr "返回至维护"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:635
+msgid "Are you sure you want to delete the selected groups?"
+msgstr "确认是否删除选择的这些群组？"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:638
+msgid "Are you sure you want to delete the selected group?"
+msgstr "确认是否删除选择的组？"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:641
+msgid "Group Name"
+msgstr "组名"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:650
+msgid "Here you can administer"
+msgstr "管理界面"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:674
+msgid "Banned IPs"
+msgstr "禁止IP列表"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:677
+msgid "Logs / Statistics"
+msgstr "日志/分析"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:680
+msgid "PLEASE BE CAREFULL WHEN MODIFING THE RIGHTS!"
+msgstr "请谨慎修改权限！"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:683
+msgid "Editing rights for group"
+msgstr "编辑组的权限"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:695
+msgid "Right"
+msgstr "权限"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:698
+msgid "Resulting ACL"
+msgstr "访问控制列表结果"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:701
+msgid "From ACL"
+msgstr "来自访问控制列表"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:704
+msgid "default"
+msgstr "默认"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:716
+msgid "<< Back"
+msgstr "<<返回"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:719
+msgid "Apply changes"
+msgstr "应用更改"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:722
+msgid "Files List"
+msgstr "文件列表"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:725
+msgid "Maintenance"
+msgstr "维护"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:761
+msgid "Are you sure you want to delete the selected files?"
+msgstr "确认删除选中的这些文件么？"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:764
+msgid "Are you sure you want to delete the selected file?"
+msgstr "确认删除选中的文件么？"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:770
+msgid "Id"
+msgstr "Id"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:782
+msgid "Upload Date"
+msgstr "上载日期"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:797
+msgid "The file you requested the removal needs some input before you can proceed"
+msgstr "在继续删除指定的文件前需要输入一些内容"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:803
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:842
+msgid "Download link"
+msgstr "下载链接"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:806
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:845
+msgid "Remove link"
+msgstr "删除链接"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:809
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:902
+msgid "Upload a new file"
+msgstr "上传一个新文件"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:812
+msgid "Uploading"
+msgstr "上传中"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:815
+msgid "please wait ..."
+msgstr "请稍等..."
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:818
+msgid "Please enter the File Information requested"
+msgstr "请输入需要的文件信息"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:821
+msgid "File code"
+msgstr "文件代码"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:830
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:866
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:896
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:923
+msgid "File description"
+msgstr "文件说明"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:836
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:872
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:881
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:908
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:926
+msgid "File name"
+msgstr "文件名"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:839
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:875
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:884
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:917
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:929
+msgid "File size"
+msgstr "文件尺寸"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:848
+msgid "Select the file to be uploaded"
+msgstr "选择需要上传的文件"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:851
+msgid "Maximum allowed upload size"
+msgstr "最大允许上传的尺寸"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:854
+msgid "Upload"
+msgstr "上传"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:857
+msgid "The file you requested the download needs some input before you can proceed"
+msgstr "在继续下载指定的文件前需要输入一些内容"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:863
+msgid "You can now proceed downloading the file"
+msgstr "现在继续下载文件"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:869
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:899
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:932
+msgid "Uploaded on"
+msgstr "上传于"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:878
+msgid "Download file"
+msgstr "下载文件"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:890
+msgid "Complete upload"
+msgstr "完成上传"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:893
+msgid "FILE HAS BEEN SUCCESSFULLY REMOVED"
+msgstr "文件已被成功删除"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:920
+msgid "You requested to remove the following file"
+msgstr "你将删除如下的文件"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:935
+msgid "Confirm removal"
+msgstr "确认删除"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:956
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:971
+msgid "Dear "
+msgstr "亲爱的"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:959
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:974
+msgid "This e-mail message is sent to you to confirm your account registration has a valid e-mail address."
+msgstr "本邮件发送给你，是用于确认你的注册信息中输入了一个有效的电子邮件地址。"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:962
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:977
+msgid "Open the following link in a browser to confirm your account."
+msgstr "在浏览器中打开下面的链接可确认你的登录帐号。"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:965
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:980
+msgid "Best regards"
+msgstr "此致，敬礼！"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:986
+msgid "User login"
+msgstr "用户登录"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:989
+msgid "User name"
+msgstr "用户名"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:998
+msgid "You don't have an account?"
+msgstr "没有登录帐号？"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:1001
+msgid "Register here"
+msgstr "点此注册"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:1004
+msgid "or you can"
+msgstr "或者你可以"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:1007
+msgid "Login here"
+msgstr "这里登录"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:1019
+msgid "Language"
+msgstr "语言"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:1022
+msgid "Change"
+msgstr "更改"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:1025
+msgid "Registration succeeded"
+msgstr "注册成功"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:1028
+msgid "An e-mail has been sent for the account activation"
+msgstr "一封帐号激活邮件已经送出"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:1031
+msgid "Please follow the e-mail instructions to activate your account."
+msgstr "请按照邮件的指引激活您的帐号。"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:1034
+msgid "back to home"
+msgstr "返回主目录"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:1049
+msgid "Old password"
+msgstr "旧密码"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:1052
+msgid "New password"
+msgstr "新密码"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:1055
+msgid "Retype password"
+msgstr "重新输入密码"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:1058
+msgid "Cancel"
+msgstr "取消"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:1064
+msgid "Your account registration has been confirmed."
+msgstr "您的注册帐号已经确认。"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:1067
+msgid "You can now proceed with the login"
+msgstr "现在您可以继续登录"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:1070
+msgid "here"
+msgstr "这里"
+

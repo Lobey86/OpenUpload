@@ -1,0 +1,1 @@
+<tr><td>{tr}Expires on{/tr}:</td><td><b>{$expire}</b></td></tr>

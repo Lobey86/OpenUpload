@@ -1,0 +1,201 @@
+<?php
+/* This is the general configuration file */
+
+/* Define the installation folder */
+$CONFIG['INSTALL_ROOT']='/usr/local/share/openupload';
+
+/* define http:// address */
+$CONFIG['WWW_SERVER']='http://yourdomain.com';
+/* define the additional web path i.e. /openupload */
+$CONFIG['WWW_ROOT']='';
+
+/* Define where to store the uploaded files */
+$CONFIG['DATA_PATH']=$CONFIG['INSTALL_ROOT'].'/data';
+
+/* Define how long to keep the uploaded files 
+ * please check the README for specification on how this works */
+$CONFIG['KEEP_FILES']=0;
+
+/* This specifies the kind of database to use:
+ * supported types are: mysql, pgsql, txt
+ * txt is a special mode where data is stored inside ascii files
+ * it can be used when no database is available 
+ */
+
+/* MYSQL / POSTGRES Database */
+#$CONFIG['database']['type']='pgsql';
+$CONFIG['database']['type']='mysql';
+
+/* Detail for dbconnection */
+$CONFIG['database']['host']='localhost';
+$CONFIG['database']['user']='databaseuser';
+$CONFIG['database']['password']='databasepwd';
+$CONFIG['database']['name']='openupload';
+
+/* TXT Database */
+# $CONFIG['database']['type']='txt';
+# $CONFIG['database']['rootdir']=$CONFIG['INSTALL_ROOT'].'/txtdb';
+
+/* Table name prefix: should be common */
+$CONFIG['database']['prefix']='';
+
+/* AUTHENTICATION MODULE */
+/* default uses the database table users */
+# $CONFIG['auth'] = 'ldap';
+$CONFIG['auth'] = 'default'; 
+
+
+/* TRANSLATION MODULE */
+#$CONFIG['translator']='none';
+#$CONFIG['translator']='gettext';
+$CONFIG['translator']='phparray';
+
+$CONFIG['defaultlang']='en';
+
+/************************************************************
+ * LDAP detail configuration options                        *
+ ************************************************************/
+/* LDAP Host                                                */
+# $CONFIG['ldap']['host'] = '127.0.0.1'; 
+/* Ldap bind user/password to get group and user information */
+# $CONFIG['ldap']['user'] = 'uid=readonly,ou=Users,dc=yourdomain,dc=com';
+# $CONFIG['ldap']['password'] = 'readonlypassword';
+/* BASE search DN                             */
+# $CONFIG['ldap']['basedn'] = 'dc=yourdomain,dc=com';
+
+/* users are part of this LDAP dn             */
+# $CONFIG['ldap']['userdn'] = 'ou=Users,dc=yourdomain,dc=com';
+/* search objectClass for users               */
+# $CONFIG['ldap']['userclass']='posixAccount';
+/* login corresponds to the 'uid' field       */
+# $CONFIG['ldap']['uid']='uid';
+/* user field correspondence with application */
+# $CONFIG['ldap']['userfields'] = array ( 'uid' => 'login', 'displayname' => 'name', 'gidnumber' => 'group_id', 'mail' => 'email');
+
+/* Groups search base                         */
+# $CONFIG['ldap']['groupdn'] = 'ou=Groups,dc=yourdomain,dc=com';
+/* Group / SubGroup objectClass               */
+# $CONFIG['ldap']['groupclass']='posixGroup';
+/* group id number which corresponds to main user group */
+# $CONFIG['ldap']['gid']='gidNumber';
+/* if the user can have more than 1 group search for other groups which contain the login in ther 'memberUid' */
+# $CONFIG['ldap']['sgid']='memberUid';
+
+/* group field correspondence with application */
+# $CONFIG['ldap']['groupfields'] = array ( 'cn' => 'name', 'description' => 'description' );
+/* other group field correspondence with application */
+# $CONFIG['ldap']['sgroupfields'] = array ( 'cn' => 'name', 'description' => 'description' );
+
+/* Active Directory */
+# $CONFIG['ldap']['host'] = '127.0.0.1'; 
+/* specify that it is an Active directory */
+# $CONFIG['ldap']['type'] = 'AD';
+# $CONFIG['ldap']['user'] = 'readonly@yourdomain.local';
+# $CONFIG['ldap']['password'] = 'readonlypassword';
+/* DOMAIN for user login */
+# $CONFIG['ldap']['domain'] = 'yourdomain.local';
+# $CONFIG['ldap']['basedn'] = 'dc=yourdomain,dc=local';
+# $CONFIG['ldap']['userdn'] = 'dc=yourdomain,dc=local';
+# $CONFIG['ldap']['userclass']='user';
+# $CONFIG['ldap']['uid']='cn';
+# $CONFIG['ldap']['userfields'] = array ( 'cn' => 'login', 'name' => 'name', 'memberof' => 'group_id', 'mail' => 'email');
+# $CONFIG['ldap']['groupdn'] = 'dc=yourdomain,dc=local';
+# $CONFIG['ldap']['groupclass']='group';
+# $CONFIG['ldap']['gid']='distinguishedname';
+# $CONFIG['ldap']['groupfields'] = array ( 'cn' => 'name', 'name' => 'description' );
+
+
+/* PLUGINS: here you enable the plugins
+ *          they  will need to enable the functionality
+ *          on a group basis 
+ */
+$CONFIG['plugins'][] = 'mimetypes';
+$CONFIG['plugins'][] = 'email';
+$CONFIG['plugins'][] = 'password';
+$CONFIG['plugins'][] = 'captcha';
+$CONFIG['plugins'][] = 'filesize';
+$CONFIG['plugins'][] = 'expire';
+$CONFIG['plugins'][] = 'compress';
+
+/* Set maximum default upload size in MB*/
+$CONFIG['max_upload_size']=100;
+
+/* Set the maximum time (in minutes) a download should take (putting it to 0 will disable the timeout, but it's not suggested) */
+$CONFIG['max_download_time']=120;
+
+/* Set the number of files to be uploaded in 1 time */
+$CONFIG['multiupload'] = '1';
+
+/* Generate shorter links for download / remove 
+ * like ?action=d&id=123892347892 == ?a=d&i=123892347892
+ * Changing this will not affect the handling on one or the other link form
+ *
+ */
+$CONFIG['use_short_links'] = 'no';
+
+/* Defines the length of the generated IDs, suggested at least a value of 6 */
+$CONFIG['id_max_length'] = '10';
+
+/* Create alphanumerical IDs for files */
+$CONFIG['id_use_alpha'] = 'yes';
+
+/* This option allows the files to be removed without applying the
+   protection (i.e. password, captcha) the user choose for downloading */
+$CONFIG['allow_unprotected_removal'] = 'no';
+
+/* Set the progress upload method to be used      */
+/* requires an extension  (APC or UPLOADPROGRESS  */
+/* possible values are: none, uploadprogress, apc */
+$CONFIG['progress'] = 'none';
+
+/* Logging of the application */
+$CONFIG['logging']['enabled'] = 'yes';
+
+/* Level of logging to the database table */
+/* 0 = none          */
+/* 1 = errors        */
+/* 2 = security      */
+/* 3 = warnings      */
+/* 4 = statistics    */
+/* 5 = info          */
+/* 6 = debug         */
+$CONFIG['logging']['db_level'] = '4';
+
+/* Level of logging to syslog */
+$CONFIG['logging']['syslog_level'] = '0';
+
+/* if registration is enabled confirm it by e-amil ? */
+$CONFIG['registration']['email_confirm']='yes';
+
+/* SITE TITLE (also used for e-mails) */
+$CONFIG['site']['title'] = 'Open Upload';
+
+/* webmaster e-mail */
+$CONFIG['site']['webmaster'] = 'webmaster@yourdomain.com';
+/* email source address */
+$CONFIG['site']['email'] = 'openupload@yourdomain.com';
+
+/* REGISTRATION OPTIONS       */
+$CONFIG['register']['nologingroup']='unregistered'; 
+/* registered user by default */
+$CONFIG['register']['default_group']='registered'; 
+
+/* SITE STYLE */
+$CONFIG['site']['template'] = 'default';
+
+/* ENABLE OR DISABLE SMARTY CACHING 
+ * if enabled make sure a cache folder exsists
+ * and that it is writable 
+ */
+$CONFIG['site']['caching']=0;
+
+/* NOTE: Depending on the template you might need to change some settings
+ *       in the template configuration.
+ *       The default template does not have this requirement 
+ */
+ 
+/* SITE FOOTER STRING */
+$CONFIG['site']['footer'] = '<a href="http://openupload.sf.net">Open Upload</a> - Created by Alessandro Briosi  &copy; 2008';
+
+
+?>

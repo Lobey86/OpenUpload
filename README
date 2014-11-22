@@ -1,0 +1,73 @@
+NAME:
+
+    OpenUpload - Share your big files over the internet service
+
+VERSION: 0.4
+
+
+AUTHORS:
+OpenUpload (http://openupload.sf.net/)
+  Copyright: 2008-2009 Open Upload Team
+              Alessandro Briosi <tsdogs@briosix.org>
+              Ryan Lelek <rlelek@users.sourceforge.net>
+
+ADDITIONAL AUTHORS:
+Smarty (http://www.smarty.net/):
+  Copyright: 2001-2005 New Digital Group, Inc. (LGPL 2.1+)
+
+Securimage (http://www.phpcaptcha.org) (Used by captcha plugin):
+  Copyright: 2007 Drew Phillips  (LGPL 2.1+)
+
+Crystal Project Icons (http://www.everaldo.com) (Used in default template)
+  Copyright: Copyright (c)  2006-2007  Everaldo Coelho
+
+BatMat (themat)
+  French translation
+
+DESCRIPTION:
+
+    What is OpenUpload?
+
+    It is a php web application to handle a files upload/download service.
+    It aims to be customizable/extendible.
+    It can be used inside enterprises for sharing files fast with customers.
+
+
+INSTALLATION:
+ 
+    See INSTALL file for details.
+
+
+REPORTING BUGS / FEATURE REQUESTS / JOIN DEVELOPMENT:
+
+    There is a mailing list which can be used to report bugs and feature requests.
+    (see web site for detail)
+    I'd really apreciate any feedback.
+    The traker is also a good place to report bugs.
+    Ho, and would really love to have somebody else work on the project.
+
+
+TRANSLATIONS:
+
+    Right now the program is only translated to Italian and French
+    Translating isn't that hard (at least the default template)
+    I have implemented 2 tranlsation modules, but there is a tool which converts from 
+    one to the other (from gettext to php).
+    Right now you can choose to translate with a php array, or use gettext tools (like poedit), to 
+    translate the app to your language. Gettext tools are much easier to use.
+    It's divided in 2 parts. 1 is for the application, and 1 is for the template.
+    They are located in locale/* for the application and templates/default/locale for the 2nd.
+    Once your translation is ready please send it to me or on the ML.
+
+
+RESTRICTIONS:
+
+    This program is released under the GPL license so be sure to follow it's restrictions.
+    You are encoraged to keep the link and copyright notice, but not oblied to.
+    So yes, you can remove the copyright notice. Don't replace it with yours though. :-)
+
+
+COPYRIGHT:
+  Copyright (c) 2009 Alessandro Briosi. All rights reserved.
+  This software is released under the GNU General Public License.
+  Please read the disclaimer at the top of the index.php file.

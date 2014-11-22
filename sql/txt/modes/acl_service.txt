@@ -1,0 +1,11 @@
+id|module|action|group_name|access
+1|*|*|admins|allow
+2|admin|*|admins|allow
+3|admin|*|*|deny
+4|auth|login|unregistered|allow
+5|auth|register|unregistered|allow
+6|auth|*|unregistered|deny
+7|auth|register|*|deny
+8|auth|*|*|allow
+9|files|l|unregistered|deny
+10|files|*|*|allow

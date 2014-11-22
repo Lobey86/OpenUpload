@@ -1,0 +1,291 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenUpload\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: Alessandro Briosi <tsdogs@briosix.org>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+
+msgid "Login incorrect!"
+msgstr "Usuário / Senha incorretos."
+
+msgid "plugin include file not found: %1"
+msgstr "Arquivo de include de plugin não encontrado: %1"
+
+msgid "IP Banned"
+msgstr "IP Banido"
+
+msgid "THERE HAS BEEN A PERMISSION ERROR. PLEASE TRY ONE OF THE ALLOWED OPTIONS!"
+msgstr "OCORREU UM ERRO DE PERMISSÕES - ACESSO NEGADO. POR FAVOR, SELECIONE UMA DAS OPÇÕES PERMITIDAS"
+
+msgid "ERROR: database folder not found!"
+msgstr "ERRO: pasta do banco de dados não encontrada"
+
+msgid "ERROR: Could not create folder for %1 table!"
+msgstr "ERRO: não foi possível criar pasta para a tabela %1!"
+
+msgid "ERROR: Could not create file for %1 table!"
+msgstr "ERRO: não foi possível criar o arquivo para a tabela %1!"
+
+msgid "Unsupported query criteria %1"
+msgstr "Critério de consulta não suportado %1"
+
+msgid "Login"
+msgstr "Entrar"
+
+msgid "User registration"
+msgstr "Registro de usuário"
+
+msgid "User options"
+msgstr "Opções de usuário"
+
+msgid "Preferences"
+msgstr "Preferências"
+
+msgid "Logout"
+msgstr "Sair"
+
+msgid "Registration is not supported by Auth Module"
+msgstr "Inscrição não suportada pelo módulo de autenticação"
+
+msgid "Username already taken, choose a new value"
+msgstr "Nome de usuário já existe, por favor selecione outro"
+
+msgid "Login name must be at least 5 characters long!"
+msgstr "Login deve ter pelo menos 5 caracteres!"
+
+msgid "Login name contains an invalid character. Valid vharacters are %1"
+msgstr "Login contém caracteres inválidos. Os caracteres válidos são %1"
+
+msgid "Please insert Full Name"
+msgstr "Por favor informe nome completo"
+
+msgid "Please insert a valid e-mail!"
+msgstr "Por favor informe um endereço válido de e-mail!"
+
+msgid "Password must be at least 5 characters long!"
+msgstr "A senha deve ter pelo menos 5 caracteres!"
+
+msgid "Passwords do not match! please retype."
+msgstr "As senhas não conferem! Por favor, tente novamente."
+
+msgid "[%1] User registration confirmation e-mail"
+msgstr "[%1] E-mail de confirmação de registro de usuário"
+
+msgid "Registration completed successfully. Have fun!"
+msgstr "Registro concluído com sucesso."
+
+msgid "User profile change not supported by Auth Module"
+msgstr "Modificação do profile de usuário não é suportado pelo módulo de autenticação"
+
+msgid "Full Name cannot be empty!"
+msgstr "Nome completo não pode estar vazio!"
+
+msgid "Please enter a valid e-mail address!"
+msgstr "Por favor, informe um endereço de e-mail válido!"
+
+msgid "Password must be at least 5 charaters long!"
+msgstr "A senha deve ter pelo menos 5 caracteres!"
+
+msgid "Old password is wrong!"
+msgstr "A senha antiga está incorreta!"
+
+msgid "New passwords do not match!"
+msgstr "As novas senhas não conferem!"
+
+msgid "Password has been changed!"
+msgstr "A senha foi modificada com sucesso!"
+
+msgid "My Files"
+msgstr "Meus arquivos"
+
+msgid "Public Files"
+msgstr "Arquivos públicos"
+
+msgid "File upload"
+msgstr "Envio de arquivo"
+
+msgid "File download"
+msgstr "Download de arquivo"
+
+msgid "File Removal"
+msgstr "Remoção de arquivo"
+
+msgid "File Upload"
+msgstr "Envio de arquivo"
+
+msgid "Upload failed for Unknown error code: %1"
+msgstr "Envio de arquivo falhou devido a erro desconhecido: %1"
+
+msgid "Maximum file size exceeded!"
+msgstr "Excedido tamanho máximo de arquivo!"
+
+msgid "Requested file does not exist!"
+msgstr "O arquivo solicitado não existe!"
+
+msgid "Wrong file id!"
+msgstr "ID de arquivo não existe!"
+
+msgid "Administration"
+msgstr "Administração"
+
+msgid "User administration not supported by Auth Module"
+msgstr "Administração de usuários não é suportada pelo módulo Auth"
+
+msgid "Cannot delete yourself!"
+msgstr "Não é possível remover a si próprio!"
+
+msgid "Group administration not supported by Auth Module"
+msgstr "Administração de grupos não é suportada pelo módulo Auth"
+
+msgid "Please provide a valid group name!"
+msgstr "Por favor informe um nome válido de grupo!"
+
+msgid "Any group"
+msgstr "Todos os grupos"
+
+msgid "ANY"
+msgstr "TODOS"
+
+msgid "Allow"
+msgstr "Permitir"
+
+msgid "Deny"
+msgstr "Negar"
+
+msgid "Specified criteria is not valid!"
+msgstr "Critério especificado é inválido!"
+
+msgid "Please specify at least one criteria!"
+msgstr "Por favor, especifique pelo menos um critério!"
+
+msgid "Enable"
+msgstr "Habilitar"
+
+msgid "Disable"
+msgstr "Desabilitar"
+
+msgid "Any"
+msgstr "Todos"
+
+msgid "Options for this group already exsist, please use the edit function!"
+msgstr "Opções para esse grupo já existem, por favor utilize outra função de edição!"
+
+msgid "Configuration sucessfully saved!"
+msgstr "Configuração salva com sucesso!"
+
+msgid "Configuration file could not be saved, please proceed with the download!"
+msgstr "Arquivo de configuração não pode ser salvo, por favor prossiga com o download!"
+
+msgid "IP %1 has been banned!"
+msgstr "IP %1 está banido!"
+
+msgid "IP %1 was already in state: %2!"
+msgstr "IP %1 já está no estado: %2!"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Language \"%1\" cannot be empty"
+msgstr "Idioma \"%1\" não pode estar vazio"
+
+msgid "Language \"%1\" already exists!"
+msgstr "Idioma \"%1\" já existe!"
+
+msgid "Name"
+msgstr "Nome"
+
+msgid "Language \"%1\" cannot be empty!"
+msgstr "Idioma \"%1\" não pode estar vazio!"
+
+msgid "Locale"
+msgstr "Localização"
+
+msgid "Charset"
+msgstr "Charset"
+
+msgid "LDAP connection failed!"
+msgstr "Conexão LDAP falhou!"
+
+msgid "Limit the mimetypes a user can upload"
+msgstr "Limita os tipos MIME que um usuário pode enviar"
+
+msgid "Allowed mime types"
+msgstr "Tipos MIME permitidos"
+
+msgid "Types in message"
+msgstr "Tipos na mensagem"
+
+msgid "WARNING: no mime types defined. Plugin has been disabled!"
+msgstr "ATENÇÃO: nenhum tipo MIME definido. O plugin foi desativado!"
+
+msgid "This file type (%1) is not allowed on this site!"
+msgstr "Este tipo de arquivo (%1) não é permitido neste site!"
+
+msgid "Add captcha protection to file download and user registration"
+msgstr "Adicionar proteção captcha para download de arquivos e registro de usuários"
+
+msgid "Wrong captcha code! please try again."
+msgstr "Código captcha incorreto! Por favor tente novamente."
+
+msgid "Compress the uploaded files"
+msgstr "Comprimir os arquivos enviados"
+
+msgid "Command to be executed. One per line."
+msgstr "Comandos para serem executados. Um por linha"
+
+msgid "Extensions corresponding to commands."
+msgstr "Extensões correspondentes a comandos"
+
+msgid "Name of compression commands"
+msgstr "Nome dos comandos de compressão"
+
+msgid "Limit the maximum size of a uploaded file"
+msgstr "Limita o tamanho máximo de um arquivo enviado"
+
+msgid "Maximum File Size"
+msgstr "Tamanho máximo de arquivo"
+
+msgid "Add option to send e-mail to the uploader or to another e-mail address"
+msgstr "Adiciona opção de enviar e-mail para o usuário que realiza o envio e para outro endereço de e-mail"
+
+msgid "Your e-mail address isn't valid!"
+msgstr "Votre adresse de courriel est invalide!"
+
+msgid "Destination e-mail address isn't valid!"
+msgstr "Endereço de e-mail destino não é válido!"
+
+msgid "Information about your uploaded file: %1"
+msgstr "Informação relativa ao seu arquivo enviado: %1"
+
+msgid "An upload was delivered to you"
+msgstr "Um arquivo foi enviado para você"
+
+msgid "E-mail was sent!"
+msgstr "E-mail enviado!"
+
+msgid "E-mail was sent to: %1!"
+msgstr "E-mail enviado para: %1!"
+
+msgid "Option to add password protection for file download"
+msgstr "Opção para adicionar senha para o download de arquivo"
+
+msgid "Wrong password!"
+msgstr "Senha incorreta!"
+
+msgid "Maximum number of days an upload will be kept on the server."
+msgstr "Número máximo de dias que um arquivo será mantido no servidor."
+
+msgid "N. Of Days"
+msgstr "N. de dias"
+
+msgid "Files will be kept on our server for %1 days"
+msgstr "Arquivos serão mantidos no nossos servidores por %1 dias"
+
+msgid "Never"
+msgstr "Jamais"
+

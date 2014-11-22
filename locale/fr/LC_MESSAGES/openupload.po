@@ -1,0 +1,435 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenUpload\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-03-03 18:12+0100\n"
+"PO-Revision-Date: 2009-03-07 13:32+0100\n"
+"Last-Translator: Alessandro Briosi <tsdogs@briosix.org>\n"
+"Language-Team: Fabrice Crohas\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: tr\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-SearchPath-0: /home/alex/devel/php/openupload/trunk/lib\n"
+"X-Poedit-SearchPath-1: /home/alex/devel/php/openupload/trunk/plugins\n"
+
+#: /home/alex/devel/php/openupload/trunk/lib/user.inc.php:89
+msgid "Login incorrect!"
+msgstr "Authentification incorrecte!"
+
+#: /home/alex/devel/php/openupload/trunk/lib/main.inc.php:244
+msgid "plugin include file not found: %1"
+msgstr "Fichier de module introuvable: %1"
+
+#: /home/alex/devel/php/openupload/trunk/lib/main.inc.php:436
+msgid "IP Banned"
+msgstr "IP Bannie"
+
+#: /home/alex/devel/php/openupload/trunk/lib/main.inc.php:464
+msgid "THERE HAS BEEN A PERMISSION ERROR. PLEASE TRY ONE OF THE ALLOWED OPTIONS!"
+msgstr "PROBLEME DE PERMISSION. ACCES INTERDIT!"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/db/txt.inc.php:121
+msgid "ERROR: database folder not found!"
+msgstr "ERREUR: répertoire de base de donnée introuvable!"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/db/txt.inc.php:127
+msgid "ERROR: Could not create folder for %1 table!"
+msgstr "ERREUR: Impossible de créer le répertoire %1 pour la table!"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/db/txt.inc.php:138
+msgid "ERROR: Could not create file for %1 table!"
+msgstr "ERREUR: Impossible de créer le fichier pour la table %1!"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/db/txt.inc.php:245
+msgid "Unsupported query criteria %1"
+msgstr "Les critéres suivants ne sont pas supportés %1"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/auth.inc.php:27
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/auth.inc.php:40
+msgid "Login"
+msgstr "Authentification"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/auth.inc.php:30
+msgid "User registration"
+msgstr "Inscription"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/auth.inc.php:33
+msgid "User options"
+msgstr "Options utilisateur"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/auth.inc.php:43
+msgid "Preferences"
+msgstr "Préférences"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/auth.inc.php:44
+msgid "Logout"
+msgstr "Déconnexion"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/auth.inc.php:93
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/auth.inc.php:116
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/auth.inc.php:201
+msgid "Registration is not supported by Auth Module"
+msgstr "L'inscription n'est pas permise par le module d'authentification (Auth)"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/auth.inc.php:124
+msgid "Username already taken, choose a new value"
+msgstr "Ce nom d'utilisateur n'est pas disponible, merci d'en choisir un autre"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/auth.inc.php:128
+msgid "Login name must be at least 5 characters long!"
+msgstr "Le login doit comporter au moins 5 caractères!"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/auth.inc.php:132
+msgid "Login name contains an invalid character. Valid vharacters are %1"
+msgstr "Le login contient des caractères invalides. Les caractères valides sont %1"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/auth.inc.php:136
+msgid "Please insert Full Name"
+msgstr "Merci de saisir le nom complet"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/auth.inc.php:140
+msgid "Please insert a valid e-mail!"
+msgstr "Merci de saisir une adresse de courriel valide!"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/auth.inc.php:144
+msgid "Password must be at least 5 characters long!"
+msgstr "Le mot de passe doit comporter au moins 5 caractères!"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/auth.inc.php:148
+msgid "Passwords do not match! please retype."
+msgstr "Les mots de passe ne correspondent pas! Recommencez."
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/auth.inc.php:170
+msgid "[%1] User registration confirmation e-mail"
+msgstr "[%1] courriel de confirmation d'inscription"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/auth.inc.php:184
+msgid "Registration completed successfully. Have fun!"
+msgstr "Inscription achevée avec succès. Bon divertissement!"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/auth.inc.php:221
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/auth.inc.php:233
+msgid "User profile change not supported by Auth Module"
+msgstr "La modification du profil utilisateur n'est pas permise par le module d'authentification (Auth)"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/auth.inc.php:240
+msgid "Full Name cannot be empty!"
+msgstr "Le nom complet ne peut-être vide!"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/auth.inc.php:245
+msgid "Please enter a valid e-mail address!"
+msgstr "Merci de saisir une adresse de courriel valide!"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/auth.inc.php:254
+msgid "Password must be at least 5 charaters long!"
+msgstr "Le mot de passe doit comporter au moins 5 caractères!"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/auth.inc.php:257
+msgid "Old password is wrong!"
+msgstr "L'ancien mot de passe est erroné!"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/auth.inc.php:260
+msgid "New passwords do not match!"
+msgstr "Les mots de passe ne correspondent pas! Recommencez."
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/auth.inc.php:263
+msgid "Password has been changed!"
+msgstr "Mot de passe modifié avec succès!"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/files.inc.php:35
+msgid "My Files"
+msgstr "Mes fichiers"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/files.inc.php:37
+msgid "Public Files"
+msgstr "Fichiers publiques"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/files.inc.php:40
+msgid "File upload"
+msgstr "Envoi de fichier"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/files.inc.php:43
+msgid "File download"
+msgstr "Téléchargement de fichiers"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/files.inc.php:46
+msgid "File Removal"
+msgstr "Suppresion de fichiers"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/files.inc.php:53
+msgid "File Upload"
+msgstr "Envoi de fichier"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/files.inc.php:142
+msgid "Upload failed for Unknown error code: %1"
+msgstr "L'envoi de fichier a échoué pour une raison inconnue. ERREUR: %1"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/files.inc.php:149
+msgid "Maximum file size exceeded!"
+msgstr "Le fichier dépasse la taille maximum!"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/files.inc.php:325
+msgid "Requested file does not exist!"
+msgstr "Le fichier demandé n'existe pas!"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/files.inc.php:434
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/files.inc.php:437
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/files.inc.php:454
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/files.inc.php:536
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/files.inc.php:540
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/files.inc.php:544
+msgid "Wrong file id!"
+msgstr "L'identifiant du fichier est erronné!"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/admin.inc.php:82
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/admin.inc.php:85
+msgid "Administration"
+msgstr "Administration"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/admin.inc.php:103
+msgid "User administration not supported by Auth Module"
+msgstr "L'administration des utilisateurs n'est pas permise par le module d'authentification (Auth)"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/admin.inc.php:159
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/admin.inc.php:173
+msgid "Cannot delete yourself!"
+msgstr "Vous ne pouvez vous supprimer vous meme"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/admin.inc.php:241
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/admin.inc.php:261
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/admin.inc.php:280
+msgid "Group administration not supported by Auth Module"
+msgstr "L'administration des groupes n'est pas permise par le module d'authentification (Auth)"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/admin.inc.php:256
+msgid "Please provide a valid group name!"
+msgstr "Merci de saisir un nom de groupe valide!"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/admin.inc.php:313
+msgid "Any group"
+msgstr "Tout les groupes"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/admin.inc.php:384
+msgid "ANY"
+msgstr "TOUT"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/admin.inc.php:387
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/admin.inc.php:400
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/admin.inc.php:913
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/admin.inc.php:940
+msgid "Allow"
+msgstr "Permettre"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/admin.inc.php:388
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/admin.inc.php:404
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/admin.inc.php:913
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/admin.inc.php:940
+msgid "Deny"
+msgstr "Interdire"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/admin.inc.php:521
+msgid "Specified criteria is not valid!"
+msgstr "Le critére spécifié n'est pas valide"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/admin.inc.php:531
+msgid "Please specify at least one criteria!"
+msgstr "Merci de fournir au moins un critére"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/admin.inc.php:563
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/admin.inc.php:587
+msgid "Enable"
+msgstr "Activer"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/admin.inc.php:564
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/admin.inc.php:588
+msgid "Disable"
+msgstr "Désactiver"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/admin.inc.php:639
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/admin.inc.php:659
+msgid "Any"
+msgstr "Tout"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/admin.inc.php:669
+msgid "Options for this group already exsist, please use the edit function!"
+msgstr "Les options pour ce groupes existent déjà, merci d'utiliser la fonction d'édition!"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/admin.inc.php:833
+msgid "Configuration sucessfully saved!"
+msgstr "La configuration a été sauvegardé avec succés!"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/admin.inc.php:835
+msgid "Configuration file could not be saved, please proceed with the download!"
+msgstr "Le fichier de configuration ne peu etre sauvegardé, merci de continuer avec le téléchargement!"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/admin.inc.php:889
+msgid "IP %1 has been banned!"
+msgstr "L'adresse IP %1 a été bannie!"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/admin.inc.php:893
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/admin.inc.php:908
+msgid "IP %1 was already in state: %2!"
+msgstr "L'adresse IP %1 était déjà dans l'état: %1"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/admin.inc.php:984
+msgid "ID"
+msgstr "ID"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/admin.inc.php:984
+msgid "Language \"%1\" cannot be empty"
+msgstr "La langue \"%1\" ne peut etre vide"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/admin.inc.php:987
+msgid "Language \"%1\" already exists!"
+msgstr "La Langue \"%1\" n'existe pas"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/admin.inc.php:991
+msgid "Name"
+msgstr "Nom"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/admin.inc.php:991
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/admin.inc.php:995
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/admin.inc.php:999
+msgid "Language \"%1\" cannot be empty!"
+msgstr "La langue \"%1\" ne peut etre vide"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/admin.inc.php:995
+msgid "Locale"
+msgstr "Localisation"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/default/admin.inc.php:999
+msgid "Charset"
+msgstr "Font"
+
+#: /home/alex/devel/php/openupload/trunk/lib/modules/auth/ldap.inc.php:24
+msgid "LDAP connection failed!"
+msgstr "ERREUR: La connexion à l'annuaire LDAP a échouée!"
+
+#: /home/alex/devel/php/openupload/trunk/plugins/mimetypes.inc.php:6
+#, fuzzy
+msgid "Limit the mimetypes a user can upload"
+msgstr "Limite les types MIME des fichiers envoyés"
+
+#: /home/alex/devel/php/openupload/trunk/plugins/mimetypes.inc.php:8
+msgid "Allowed mime types"
+msgstr "Types mimes autorisé"
+
+#: /home/alex/devel/php/openupload/trunk/plugins/mimetypes.inc.php:9
+msgid "Types in message"
+msgstr "Types dans le message"
+
+#: /home/alex/devel/php/openupload/trunk/plugins/mimetypes.inc.php:22
+#: /home/alex/devel/php/openupload/trunk/plugins/mimetypes.inc.php:39
+msgid "WARNING: no mime types defined. Plugin has been disabled!"
+msgstr "ATTENTION: pas de type MIME définit. Le module a été désactivé!"
+
+#: /home/alex/devel/php/openupload/trunk/plugins/mimetypes.inc.php:44
+msgid "This file type (%1) is not allowed on this site!"
+msgstr "L'envoi de ce type de fichiers (%1) n'est pas permis sur ce site!"
+
+#: /home/alex/devel/php/openupload/trunk/plugins/captcha.inc.php:7
+msgid "Add captcha protection to file download and user registration"
+msgstr "Ajoute une protection Captcha au téléchargement de fichier et à l'inscription des utilisateurs"
+
+#: /home/alex/devel/php/openupload/trunk/plugins/captcha.inc.php:40
+#: /home/alex/devel/php/openupload/trunk/plugins/captcha.inc.php:58
+msgid "Wrong captcha code! please try again."
+msgstr "Le code Captcha saisi est erroné! Merci de recommencer."
+
+#: /home/alex/devel/php/openupload/trunk/plugins/compress.inc.php:6
+msgid "Compress the uploaded files"
+msgstr "Compresser les fichiers envoyés"
+
+#: /home/alex/devel/php/openupload/trunk/plugins/compress.inc.php:8
+msgid "Command to be executed. One per line."
+msgstr "La commande ne peut pas etre exécuté. Une par ligne."
+
+#: /home/alex/devel/php/openupload/trunk/plugins/compress.inc.php:9
+msgid "Extensions corresponding to commands."
+msgstr "Extensions correspondant à la commande."
+
+#: /home/alex/devel/php/openupload/trunk/plugins/compress.inc.php:10
+msgid "Name of compression commands"
+msgstr "Nom de la commande pour la compression."
+
+#: /home/alex/devel/php/openupload/trunk/plugins/filesize.inc.php:8
+msgid "Limit the maximum size of a uploaded file"
+msgstr "Limite la taille maximum des fichiers envoyés"
+
+#: /home/alex/devel/php/openupload/trunk/plugins/filesize.inc.php:10
+#, fuzzy
+msgid "Maximum File Size"
+msgstr "Le fichier dépasse la taille maximum!"
+
+#: /home/alex/devel/php/openupload/trunk/plugins/email.inc.php:6
+msgid "Add option to send e-mail to the uploader or to another e-mail address"
+msgstr "Ajouter une option pour envoyer un courriel à l'expéditeur du fichier ou une autre adresse courriel."
+
+#: /home/alex/devel/php/openupload/trunk/plugins/email.inc.php:30
+msgid "Your e-mail address isn't valid!"
+msgstr "Votre adresse de courriel est invalide!"
+
+#: /home/alex/devel/php/openupload/trunk/plugins/email.inc.php:40
+msgid "Destination e-mail address isn't valid!"
+msgstr "L'adresse courriel de destination n'est pas valide!"
+
+#: /home/alex/devel/php/openupload/trunk/plugins/email.inc.php:56
+#: /home/alex/devel/php/openupload/trunk/plugins/email.inc.php:77
+msgid "Information about your uploaded file: %1"
+msgstr "Information relative au fichier envoyé: %1"
+
+#: /home/alex/devel/php/openupload/trunk/plugins/email.inc.php:60
+#: /home/alex/devel/php/openupload/trunk/plugins/email.inc.php:84
+msgid "An upload was delivered to you"
+msgstr "Un fichier a été mis à votre disposition"
+
+#: /home/alex/devel/php/openupload/trunk/plugins/email.inc.php:80
+msgid "E-mail was sent!"
+msgstr "Le courrier a été envoyé!"
+
+#: /home/alex/devel/php/openupload/trunk/plugins/email.inc.php:91
+msgid "E-mail was sent to: %1!"
+msgstr "Le courrierl a été envoyé à: %1!"
+
+#: /home/alex/devel/php/openupload/trunk/plugins/password.inc.php:7
+msgid "Option to add password protection for file download"
+msgstr "Permet d'ajouter une protection par mot de passe au fichier en téléchargement"
+
+#: /home/alex/devel/php/openupload/trunk/plugins/password.inc.php:53
+msgid "Wrong password!"
+msgstr "Mot de passe erroné!"
+
+#: /home/alex/devel/php/openupload/trunk/plugins/expire.inc.php:6
+msgid "Maximum number of days an upload will be kept on the server."
+msgstr "Le nombre de jours maximum de conservation d'une donnée reçu sur le serveur."
+
+#: /home/alex/devel/php/openupload/trunk/plugins/expire.inc.php:8
+msgid "N. Of Days"
+msgstr "Nbr de jours"
+
+#: /home/alex/devel/php/openupload/trunk/plugins/expire.inc.php:21
+msgid "Files will be kept on our server for %1 days"
+msgstr "Le fichier sera conserver sur notre serveur pendant %1 jours"
+
+#: /home/alex/devel/php/openupload/trunk/plugins/expire.inc.php:49
+msgid "Never"
+msgstr "Jamais"
+
+#~ msgid "ERROR: connection to database failed!"
+#~ msgstr "ERREUR: La connexion à la base de données a échouée!"
+#~ msgid "Maximum upload size for site wide configuration reached"
+#~ msgstr "La taille maximum d'hébergement de fichier est atteinte"
+#~ msgid "Partial file transfer error!"
+#~ msgstr "ERREUR, le fichier a été transféré partiellement!"
+#~ msgid "No file was uploaded!"
+#~ msgstr "Aucun fichier n'a été envoyé!"
+#~ msgid "Missing temporary directory"
+#~ msgstr "Le répertoire temporaire est introuvable"
+#~ msgid "Can't write to temporary diretory!"
+#~ msgstr "Impossible d'écrire dans le répertoire temporaire!"
+#~ msgid "Upload blocked by extension!"
+#~ msgstr "Cette extension de fichier n'est pas supportée!"
+

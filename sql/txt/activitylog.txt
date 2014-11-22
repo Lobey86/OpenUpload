@@ -1,0 +1,1 @@
+id|level|log_time|ip|user_login|module|action|realaction|plugin|result|moreinfo

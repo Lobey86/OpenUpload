@@ -1,0 +1,10 @@
+id|group_name|plugin|access
+1|admins|password|enable
+2|admins|captcha|enable
+3|admins|email|enable
+4|registered|password|enable
+5|registered|captcha|enable
+6|registered|email|enable
+7|unregistered|mimetypes|enable
+8|unregistered|captcha|enable
+9|unregistered|password|enable

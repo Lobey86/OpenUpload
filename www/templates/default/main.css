@@ -1,0 +1,212 @@
+body {
+  font-family:  Arial,Helvetica;
+  font-size: 10pt;
+  margin: auto;
+  text-align: center;
+  background-color: #fdfdfd;
+}
+#logo {
+  float:left;
+}
+#userinfo {
+  clear: right;
+  float: right;
+  height: 20px;
+  vertical-align: bottom;
+  margin-top: 40px;
+  margin-right: 20px;
+}
+#langs {
+  float: right;
+  height: 20px;
+  vertical-align: top;
+  margin-top: 0px;
+  margin-right: 20px;
+}
+#langs ul {
+  list-style:none;
+  margin: 0;
+  padding: 0;
+}
+#langs li {
+ display: inline; 
+ padding-right: 8px;
+ padding-left: 8px;
+ border-right: 1px solid #000000;
+}
+
+#title {
+  background-color: #5f81cf;
+  border-bottom: 2px solid #ee7625;
+  border-top: 2px solid #ee7625;
+  color: #fff;
+  font-size: 12pt;
+  font-weight: bold;
+  clear: right;
+  padding-left: 160px;
+  padding-top: 3px;
+  padding-bottom:3px;
+  text-align: left;
+  height: 20px;
+}
+#menu {
+  bottom: 0px;
+  text-align: center;
+  margin-top: 5px;
+}
+#menu ul {
+  list-style:none;
+  margin: 0;
+  padding: 0;
+}
+#menu li {
+ display: inline; 
+ padding-right: 8px;
+ padding-left: 8px;
+ border-right: 1px solid #000000;
+}
+#wrapper {
+ clear: both;
+ margin: 0 auto;
+ display: inline-block;
+ padding-top: 5px;
+ padding-bottom: 20px;
+}
+#content {
+ display: table;
+ text-align: center;
+ padding: 10px;
+ padding-top: 20px;
+}
+#upload {
+  display: table-cell;
+  width: 500px;
+  text-align: left;
+  padding-top: 20px;
+}
+#uploadbutton {
+  text-align: center;
+  margin: 0 auto;
+}
+#downloadbutton {
+  text-align: center;
+  margin: 0 auto;
+}
+
+#footer {
+  clear: both;
+  position: fixed;
+  bottom: 0px;
+  height: 20px;
+  width: 100%;
+  font-weight: bold;
+  font-size: 9pt;
+  border-top: 1px solid #000000;
+  text-align: center;
+  background-color: #ffffff;
+}
+#footer a {
+  color: #3161cf;
+  font-weight: bold;
+  font-size: 9pt;
+  text-decoration: none;
+}
+#footer a:visited {
+  color: #3161cf;
+  font-weight: bold;
+  font-size: 9pt;
+  text-decoration: none;
+}
+a {
+  color: #3161cf;
+  font-weight: bold;
+  font-size: 11pt;
+  text-decoration: none;
+}
+a:visited {
+  color: #3161cf;
+  font-weight: bold;
+  font-size: 11pt;
+  text-decoration: none;
+}
+a:hover {
+  color: #4c8dff;
+  font-weight: bold;
+  font-size: 11pt;
+  text-decoration: none;
+}
+input, textarea {
+  color: #132678;
+  background-color: #c7dbff;
+  border: 1px solid #2d55b4;
+  font-size: 10pt;
+}
+.file {
+  font-size: 20pt;
+  color: #132678;
+  background-color: #c7dbff;
+  border: 1px solid #2d55b4;
+  font-size: 10pt;
+}
+fieldset {
+  border: 1px solid #2d55b4;
+  width: 25em
+}
+legend {
+  color: #ffffff;
+  background-color: #4c8dff;
+  border: 1px solid #2d55b4;
+  padding: 2px 6px;
+  font-size: 10pt;
+  font-weight: bold;
+} 
+.submit,button {
+  font-size: 10pt;
+  color: #fafafa;
+  background-color: #4c8dff;
+  border-left: 1px solid #e3edff;
+  border-top: 1px solid #e3edff;
+  border-right: 1px solid #2d55b4;
+  border-bottom: 1px solid #2d55b4;
+  font-weight: bold;
+}
+img {
+  border: 0px;
+}
+#dbtable {
+  border: 1px solid #000;
+}
+#dbtable th {
+  background-color: #4c8dff;
+  color: #ffffff;
+  font-weight: bold;
+}
+#dbtable #row1 {
+  padding: 2px;
+  background-color: #fafafa;
+  text-align: center;
+  vertical-align: middle;
+}
+#dbtable #row2 {
+  padding: 2px;
+  background-color: #ededed;
+  text-align: center;
+  vertical-align: middle;
+}
+#message {
+  clear: both;
+  text-align: left;
+}
+#error {
+  color: #ff0000; 
+  font-weight: bold;
+  text-align: left;
+}
+#toolbar {
+  display: block;
+  text-align: left;
+}
+
+td {
+  font-size: 10pt;
+}

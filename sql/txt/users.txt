@@ -1,0 +1,2 @@
+id|login|password|name|group_name|email|lang|reg_date|regid|active
+1|admin|$1$sLCQ3aFR$rCIb4Owhgi3mIHgYnbA351|Administrator|admins|openupload@yourdomain.com|en|0000-00-00 00:00:00||1

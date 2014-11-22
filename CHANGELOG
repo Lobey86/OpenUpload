@@ -1,0 +1,158 @@
+Changelog from release 0.4.1 to 0.4.2
+* Fix problems with XSS scripting
+
+Changelog from release 0.4 to 0.4.1
+
+* Database
+  - MSSQL support. by Leonardo F. Cardoso (leocardoso)
+
+* Translations
+  - Added  Brazilian Portuguese. by Leonardo F. Cardoso (leocardoso)
+
+* Mime types
+  - Now mime types try to be handled on the server (see bugs)
+
+* Plugins
+  - Add multiple recipients option to email plugin (; separated list)
+  
+* Bugs fixed
+  - Mime handling is now done on the server if supported.
+  - Handle strange AD behavier with blank passwords
+  - Handle magic_quotes_gpc if enabled, which caused problems with strong passwords
+  - New mysql versions don't allow an empty string for date/time
+  - Missing activity_log structure from sql files
+  - Report a message if php fails moving around the files.
+  - A few other minor fixes.
+  
+Changelog from release 0.3c to 0.4
+
+* General
+  - Reviewed the logo / default theme
+  - Added option to use shorter links
+  - Added options to configure IDs length with alphanumerical string
+  - Added possibility to display a list of the personally uploaded files.
+  - Option to enable shorter file ids.
+
+* Fixed BUGS
+  - Registration wasn't working 'cause of a api rename bug
+
+* Database
+  - Added PostgreSQL support
+  - Added PostgreSQL db structures
+  - PostgreSQL seems to be stable now
+  - New extended read api to handle better query options
+
+* Administration
+  - Languages can now be administrated
+  - New rights editing interface.
+  - Plugin options
+  - Enabled confirmation on record deletion
+  - Enabled multi delete option
+  - Enabled options configuration page
+  - File deletion for maintenance
+
+* Setup
+  - Added setup script which should simplify first time configuration.
+
+* Logs
+  - Created logs which can be used for statistics.
+
+* Upload
+  - Display upload progress, requires either uploadprogress / apc pecl extensions
+  - Multiple file uploads
+
+* Plugins
+  - Options are now group based and in the database
+  - Plugin defualt option for groups.
+  - Upload file size limit by user group
+  - Expiriration date plugin
+  - Compression options (needs external tools)
+
+* Translations
+  - Updated Italian
+  - Added German (Stefan Koshold)
+
+Changelog from 0.3b to 0.3c (updated 2008.12.06)
+
+* Fixed Bugs
+  #2276042 Changing user information in admin module failed
+  #2276532 ACL did not correspond to documentation
+
+* Localization
+  Added French Translation (thanks to BatMat)
+
+Changelog from 0.3a to 0.3b (updated 2008.11.07)
+
+* Fixed Bugs
+  #2229204 User administration password change now works
+  #2229163 Users now can change their password
+  #2225762 Group editing now works
+  #2221934 Administrator can now delete files
+
+* General
+  Changed the main.css file to better suit IE, major improvements in next release.
+  Now the slashes are normalized so paths result correct in browsers
+
+Changelog from 0.3 to 0.3a (updated 2008.11.03)
+
+* Fixed bugs:
+  #2216829 : remove link not working
+  #2212187 : User registration not working
+
+Changelog for release 0.3 (updated on 2008.10.28).
+
+* General
+  - make sub www folders not accessible by default (some index.html files)
+
+* Registration
+  - Check for valid login name
+  - Enable registration with e-mail confirmation
+
+* Upload
+  - Added main maximum upload file size checks
+
+* Administration: mainly done needs a review in near future
+  - User  administration
+  - Group administration
+  - File  administration
+  - Plugin ACL administration
+  - Rights Administration
+  - Display of actual configuration
+  - Administration of banned IPs
+
+* User
+  - Manage profile (password/Name/E-Mail change)
+
+* Authentication
+  - LDAP authentication for Openldap and AD support
+
+* Database
+  - Review DB module functions 
+  - Updated txtdb with basic api
+  - Prepared SQL structures.
+
+* Acl 
+  - Modules 
+  - Plugins
+
+* Templates
+  - removed absolute paths from templates, to retrieve default template file if template file is not found
+
+* Translations
+  - gettext module
+  - phparray module
+  - initial Italian translation (admin templates need a review)
+
+* Download
+  - Changed serve file method to not go over the memory php limit (disable output buffer)
+  - Make download timeout configurable.
+
+* Web site
+  - Created index page
+  - Addedd Screen shots
+  - Added mailing lists
+
+* SVN repository
+  - up and running :)
+  - added mailing list to track changes
+

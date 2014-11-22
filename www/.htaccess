@@ -1,0 +1,5 @@
+# Set this accordingly to your installation
+# N.B. For this to work, you'll need "AllowOvverride Options" in apache dir config 
+php_value file_uploads "On"
+php_value upload_max_filesize "200M"
+php_value post_max_size "200M"

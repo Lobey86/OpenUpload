@@ -1,0 +1,76 @@
+TODO list not priority ordered.
+
+******* MUST BE DONE BEFORE RELEASE 0.4 *******
+Administration
+ - A way to add / remove plugins and a way to sort them out
+
+Users
+ - Add paging to new "My Files" feature
+
+Bugs
+  - Fix all bugs I find in 0.4beta (I hope somebody else will report some if they exsist)
+
+Database
+  - txtdb deep testing (switch ?)
+
+Setup
+  - Check for required paths to be writable...
+  - Check for zip/tar ?
+  - Enable TXTDB initialization
+
+SQL
+  - Update with default options for plugins
+
+Translations
+  - Update the translations
+
+******* OTHER THINGS/IDEAS *******
+
+General
+- enable modrewrite mode
+- E-mail customization in configuration
+
+Database
+- txtdb needs some work. might need file locks.
+
+Upload
+- Handle upload progress with other methods..
+
+Administration
+- Review the general administration module
+- Rights switch mode (to switch from 1 mode to the other)
+
+Maintainence
+- Create a script to clean up the files/tmpfiles.
+
+Registration
+- Enable registration moderation
+
+User
+- e-mail change should need a confirmation e-mail too!
+- Authentication with NTLM (mainly on LDAP module)
+
+
+Plugins 
+- (Following are some ideas)
+  Download bandwith limiting depending on group (of upload user probably better)
+  Download wait time (is this really needed?)
+  User additional fields for registration request.
+  Antivirus on upload
+
+Translation 
+- Add a database translator? not until base isn't complete.
+
+Template
+- Create a sample template.
+
+Documentation
+- All is missing :)
+- Document program api
+
+Setup/Configuration
+- Change php settings in .htaccess file (low priority)
+
+Others
+- Statistics
+- Terms of Use for site and registration

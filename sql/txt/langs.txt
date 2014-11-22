@@ -1,0 +1,7 @@
+id|name|locale|browser|charset|active
+en|English|en_EN|[en];[en-EN]|utf-8|1
+it|Italiano|it_IT.utf8|[it];[it-IT]|utf-8|1
+fr|Français|fr_FR.utf8|[fr];[fr-FR]|utf-8|1
+de|Deutsch|de_DE.utf8|[de];[de-DE]|utf-8|1
+pt_BR|Português|pt_BR.utf8|[pt];[pt-BR]|utf-8|1
+zh_CN|中文|zh_CN.utf8|[zh];[zh-CN]|utf-8|1

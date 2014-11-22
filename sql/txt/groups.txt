@@ -1,0 +1,4 @@
+name|description
+admins|Administrators group
+registered|Registered Users
+unregistered|Unregistered users

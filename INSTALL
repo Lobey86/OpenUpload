@@ -1,0 +1,269 @@
+             ------------------------------------------------------------------------------
+                                    OpenUpload installation notes
+             ------------------------------------------------------------------------------
+                                         Version: 0.3
+                                    Last updated: 2008-10-24
+
+INTRODUCTION
+
+    This document describes the basic steps to install Open Upload.
+    Be sure to also read README file.
+    In this document there is also some documentation I suggest you to read.
+
+INDEX
+
+    * Requirements
+    * Quick Start
+    * Modes and Rights
+    * LDAP Authentication  
+    * Multisite installation
+    * IP Blocking Feature
+    * Templates / Logo change
+
+             ------------------------------------------------------------------------------
+
+REQUIREMENTS
+
+    To be able to use this software you need:
+    - A running Web Server with PHP 5.x (version 4 won't work)
+    - Database (MySQL / PostgreSql) (optional but raccomended)
+    - PHP and Web server must be configured to allow the file uploads
+      More specifically:
+        by default php allows uploads of max 2Mb file size. 
+        You'll need to update the php.ini file to allow the maximum allowed size of your site, either by modifying the php.ini or
+        allowing Apache (or the web server) to let .htaccess override the limit. (i.e. AllowOverride Options)
+        In the www directory there is an example .htaccess file
+    - PHP must be installed with the DATABASE backend you want to use,
+      and GD image extensions for captcha to work.
+    - Also the LDAP extension needs to be installed if you plan to use 
+      LDAP/AD Authentcation.
+
+             ------------------------------------------------------------------------------
+
+QUICK START
+
+    * BIG FAT NOTE: This procedure is aimed to let you test the program functionality.
+                    Once this program is right for you read the MULTISITE INSTALLATION to avoid
+                    security issues.
+                    You should make sure the files other than "www" are not directly accessible via WEB
+                    More specifically this are the most important:
+                       "data" directory where files are stored
+                       "txtdb" if a flat txt database is used
+
+    * Download the source from http:/www.sf.net/projects/openupload
+    * Untar the file 
+       tar xzf <release>.tar.gz
+    * Copy all files to somewhere which is accessible from the web (i.e. /var/www/html/openupload)
+    * Point your browser to where the application has been installed (i.e. http://localhost/openupload)
+    * Follow the setup steps.
+
+MANUAL CONFIGURATION
+
+    * Copy the www/config.inc.php.example and edit it to suit your installation
+    * Make sure the web server is able to write to the "data", "data/tmp" and "templates_c" directory
+    * Create the database 
+       ( see MODES AND RIGHTS for more information on mode and rights configuration)
+       MYSQL: 
+         - create the db and the user
+           create database <database>;
+           grant all privileges on <database>.* to '<user>'@'localhost' ideintified by '<password>';
+         - import the database schema and default config options
+           mysql <database> -u <user> -p < sql/mysql/1_schema.sql
+           mysql <database> -u <user> -p < sql/mysql/2_base.sql
+         - import the configuration mode (it is not required):
+           mysql <database> -u <user> -p < sql/mysql/3_mode_<selected>.sql
+       PGSQL:
+         - create the user and the db
+           su - postgres (or whatever is the db admin)
+           createuser -P -S -D -R -l openupload 
+           createdb --owner=openupload openupload "OpenUpload DB"
+         - import the database schema and default config options
+           psql -h 127.0.0.1 -W -U openupload -f sql/pgsql/1_structure.sql
+           psql -h 127.0.0.1 -W -U openupload -f sql/pgsql/2_base.sql
+         - import the configuration mode (it is not required):
+           psql -h 127.0.0.1 -W -U openupload -f sql/pgsql/3_mode_<selected>.sql
+       FLAT FILE (TXT):
+         - the txt is usable, but I would not suggest it unless it's a really low traffic site.
+         - make sure the "rootdir" for the txtdb folder is writable by your apache user
+         - copy the default files from sql/txt/*.txt to the "rootdir" folder
+         - substitute the wanted mode configuration txt/modes/acl_<mode>.txt over the acl.txt
+
+    * Point your browser to http://localhost/<wherever>
+    * Login with Username: admin Password: admin
+    * Go to Profile and change your admin e-mail and password
+    * Enjoy! :)
+
+             ------------------------------------------------------------------------------
+
+MODES AND RIGHTS
+
+    Application can be configured to achive different behavier depending on group rights.
+    It comes with a set of predefined rights so that it enables/disables features.
+    Mainly I think this are the most usefull modes one should require, but you are free to adapt 
+    them after installation.
+
+     * Public
+       The site is completely public. No need for the user to login or register. It can upload and 
+       download as it wishes. Still plugin limitations may apply.
+
+     * Service
+       The site is public for not registered users, but registered ones get more functionality (i.e. 
+       less limitations, they can password protect the file, can send e-mails, etc).
+
+     * Restricted
+       The users to be able to upload need to register/login
+       The download is still public.
+
+     * Private
+       The users must login to upload and they are not able to register (the Admin adds the users).
+       The download is still available.
+       I think this is the best solution for a company or user which wants internal users to upload
+       files, but i.e. customers to download them freely.
+       IMHO this is the best configuration in conjunction with LDAP/AD Authentication.
+
+     * Internal use (which I do not provide, but might be needed)
+       This is a mode which could be used for some people, but unless needed you will need to 
+       configure the rights yourself.
+       Mainly upload and download need a user to login.
+
+    Basically the rights are checked with this priority:
+
+    group / module / action
+    group / module / *
+    group / *      / *
+    *     / module / action
+    *     / module / *
+    *     / *      / *
+
+    where * stands for any value.
+
+    With the LDAP authentication backend a user can be part of multiple groups.
+    The check is done for every group the user is part of, and if none of it are matched
+    the result is to deny the operation. (See LDAP AUTHENTICATION)
+
+    NOTE: Be carfull with rights as you might block yourself out
+
+    Also the plugins can be enabled and disabled based on the group a user is registered.
+    Probabaly you'll need to adapt it to suit your needs.
+    Plugins must be enabled / disabled on a group basis (this might change in the future),
+    there is no * for the group.
+
+             ------------------------------------------------------------------------------
+
+LDAP AUTHENTICATION
+
+    LDAP support is maily a company feature, where you want your internal users to be able to upload files,
+    and Customers to be able to download (without the need to login).
+
+    Supported (tested) infrastructures:
+      - Openldap (I test it against a Samba3 + Openldap structure).
+      - Active Directory (against a windows 2003 domain)
+
+    LDAP configuration can be quite triky so you'll need to undersand what the configuration options are:
+      - host       : this is easy, the host to ask login requests (your LDAP / AD server)
+      - type       : in case of Active Directory put 'AD' as value
+      - user       : this is the user used to do LDAP/AD queries. I'd suggest to create a readonly user.
+      - password   : the "readonly" user password
+      - domain     : only for Active Directory, specifies the AD domain (i.e. yourdomain.local), it's used 
+                     for user authentication. (like User@yourdomain.local)
+      - basedn     : this is the LDAP base DN
+      - userdn     : the base dn for user searches. For LDAP it is also used for user authentication values 
+                     (i.e. uid=User,ou=Users,dc=yourdomain,dc=local), it's the ou=Users,dc=yourdomain,dc=local
+      - userckass  : the objectClass associated to the users (leave user for AD)
+      - uid        : the field that corresponds to the user login (could be cn, i.e. cn=admin,ou=Users,... )
+      - userfields : the list of correspondences between LDAP/AD attributes and the user fields
+                     place particular attention to the group_id match, as it needs to match the main gid for 
+                     group name search.
+      - groupdn    : Group base search path. Where groups are stored (could be the same as basedn)
+      - groupclass : The objectClass of a group (leave group for AD)
+      - gid        : this is the value to be matched between the group_id in the user fields and the group)
+      - groupfields: this is a list of correspondence between LDAP/AD group attributes and the group fields
+      - sgid       : Mainly needed for Openldap, the user might be part of other groups. this is the lookup 
+                     field for the login name to be a member of a group (not needed in AD)
+      - sgidfields : correpondence between ldap sub group attributes and group attributes (mainly it's the 
+                     same as groupfields) maybe I'll remove it, if I find out it's not needed.
+
+    Once you have configured this part you should make sure to be able to login as administrator and change rights.
+    It's probably a good idea to add a record with the Administrator group to be able to access anything.
+
+    I'd suggest to create a set of dedicated groups for the application (i.e. OpenUploadAdmin, OpenUploadUser), 
+    in your LDAP/AD configuration, and manage rights for only this groups (obviously assign to them the 
+    users you want to access the service)
+    Also I'm not really sure how it works if a user has more than 1 group with different rights (especially 
+    on plugins)
+
+    If it's a simple company you can use the default "Domain Users" and "Domain Admins".
+
+    Please note that if LDAP is enabled you won't be able to manage users/groups from the Administration interface 
+    (use the LDAP/AD for this)
+
+    I'd also suggest to assign your users an e-mail addess.
+
+             ------------------------------------------------------------------------------
+
+MULTISITE INSTALLATION
+
+    In the QUICK START you find out how to test the application.
+    For a better installation this are my suggestions:
+
+    Put the program somewhere which is not WEB accessible. (i.e. /usr/share/openupload)
+    You can then copy the www folder to the WEB server root (or subdirectory), or even better,
+    point the web server to the www folder if it's a single site configuration.
+
+    Make sure the "data", "data/tmp" and "templates_c" folders are writable by the web user.
+
+    Change the config.inc.php accordingly to your installation.
+
+    If you want a multisite be sure to have a different config.inc.php per site (and db or db prefix).
+    Create a template folder for every site (or maybe just 1 if you plan on changing only the logo).
+
+             ------------------------------------------------------------------------------
+
+IP BLOCKING FEATURE (actually allow/deny)
+
+    The IP blocking feature is pretty configurable, so you can allow only a set of specific networks
+    to access the site (i.e. VPN networks).
+    The ip can be specified with a subnet mask (i.e. 192.168.0.0/255.255.255.0) or with a subnet mask 
+    number (i.e. 192.168.1.0/23)
+
+    Then you can decide wether this range accesses the site or not.
+    So you could block an entire range of IPs with only one line.
+
+    You can also secify a priority so let's say you want all the 192.168.0.0/16 networks to access,
+    but you want to block the specific 192.168.99.0/24 network.
+
+        IP          | ACCESS  | PRIORITY
+    192.168.0.0/16  | allow   |  8
+    192.168.99.0/24 | deny    |  7
+
+    The IP Banning feature will set a default value of 10 as the priority rule for the IP to be BANNED.
+
+    If you want to be sure that your network is not banned use a priority lower than that.
+
+    Please be carefull as you could lock yourself out :)
+
+             ------------------------------------------------------------------------------
+
+PLUGINS
+  The provided plugins need to be enabled on a group basis.
+  Some are feature plugins, others are limitation plugins.
+  
+  captcha  : allows the user to select a captcha before the download. (Requires GD extension)
+  email    : allows sending e-mails with the download detail
+  password : allows password protection of the download
+  expire   : defines when an upload must expire (use the maintainance to delete them)
+  filesize : definition of different file size uploads on a group basis
+  mimetype : specify a limited set of mimetypes or ban some of them
+  compress : allows to compress the uploaded files into an archive. Requires external tools
+             (must be configured)
+
+TEMPLATES / LOGO CHANGES (Notes)
+
+    If you want to change something in the templates I'd suggest to create a site template and put 
+    there the needed changed files,
+    (templates/<yourtemplate> or www/templates/<yourtemplate>).
+    The program will check for the exsistence of a file in the selected template folder, and if not 
+    found will go back to the default.
+    This will avoid problems when updating the program to a new version.
+
+

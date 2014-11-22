@@ -1,0 +1,1 @@
+<tr><td>{tr}Protection{/tr}:</td><td><b>{tr}Captcha{/tr}</b></td></tr>

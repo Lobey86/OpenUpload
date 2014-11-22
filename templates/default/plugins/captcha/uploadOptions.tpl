@@ -1,0 +1,1 @@
+<tr><td>{tr}Use Captcha{/tr}:</td><td><input type="checkbox" name="captcha" value="1" checked></td></tr>

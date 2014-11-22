@@ -1,0 +1,621 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenUpload\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: Alessandro Briosi <tsdogs@briosix.org>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+
+msgid "Your IP has been blocked!"
+msgstr "Seu endereço IP foi bloqueado!"
+
+msgid "You cannot use this site."
+msgstr "Você não pode utilizar este site."
+
+msgid "If you think this is a misconfiguration please send an email to the site owner"
+msgstr "Se isso parecer um engano, por favor envie um email para o administrador"
+
+msgid "Captcha code"
+msgstr "Código Captcha"
+
+msgid "Reload Image"
+msgstr "Recarregar a imagem"
+
+msgid "Please enter the following captcha to proceed for the removal"
+msgstr "Por favor, digite o captcha para prosseguir com a remoção"
+
+msgid "Protection"
+msgstr "Proteção"
+
+msgid "Captcha"
+msgstr "Proteger com código Captcha"
+
+msgid "Please enter the following captcha to proceed for the download"
+msgstr "Por favor, digite o captcha para prosseguir com o download"
+
+msgid "Use Captcha"
+msgstr "Usar Captcha"
+
+msgid "Compress the files"
+msgstr "Comprimir os arquivos"
+
+msgid "No compression"
+msgstr "Sem compressão"
+
+msgid "Password"
+msgstr "Senha"
+
+msgid "The download is password protected."
+msgstr "O download é protegido por senha."
+
+msgid "Password protect"
+msgstr "Protegido por senha"
+
+msgid "Send password in e-mail"
+msgstr "Enviar a senha por e-mail"
+
+msgid "You are receiving this message because someone uploaded a file on our OpenUpload server for you."
+msgstr "Você recebeu este e-mail pois um novo arquivo foi disponibilizado para você nos nossos servidores."
+
+msgid "Description"
+msgstr "Descrição"
+
+msgid "User message"
+msgstr "Mensagem para o usuário"
+
+msgid "To download the file open the following link in a browser"
+msgstr "Para fazer o download, abra o seguinte link no seu navegador"
+
+msgid "To remove the file from our server open the following link in a browser"
+msgstr "Para remover o arquivo do servidor, abra o seguinte link no seu navegador"
+
+msgid "For complains please send an email to"
+msgstr "Em caso de abuso, por favor envie e-mail para "
+
+msgid "Send me an e-mail"
+msgstr "Me envie um e-mail"
+
+msgid "Send"
+msgstr "Enviar"
+
+msgid "Send e-mail to"
+msgstr "Enviar e-mail para"
+
+msgid "Send remove link"
+msgstr "Enviar link de remoção"
+
+msgid "e-mail Subject"
+msgstr "Assunto do e-mail"
+
+msgid "e-mail Message"
+msgstr "Mensagem do e-mail"
+
+msgid "Your e-mail address"
+msgstr "Seu endereço de e-mail"
+
+msgid "Expires on"
+msgstr "Expira em"
+
+msgid "Only the following mime types are allowed"
+msgstr "Apenas os seguintes tipos MIME são aceitos"
+
+msgid "Are you sure you want to delete the selected plugins?"
+msgstr "Tem certeza que deseja remover os plugins selecionados?"
+
+msgid "Are you sure you want to delete the selected plugin?"
+msgstr "Tem certeza que deseja remover o plugin selecionado?"
+
+msgid "S"
+msgstr "S"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Plugin"
+msgstr "Plugin"
+
+msgid "Group"
+msgstr "Grupo"
+
+msgid "Access"
+msgstr "Acesso"
+
+msgid "Actions"
+msgstr "Ações"
+
+msgid "Add"
+msgstr "Adicionar"
+
+msgid "IP"
+msgstr "Endereço IP"
+
+msgid "Priority"
+msgstr "Prioridade"
+
+msgid "Confirm"
+msgstr "Confirmar"
+
+msgid "Name"
+msgstr "Nome completo"
+
+msgid "Gruppo"
+msgstr "Grupo"
+
+msgid "Rights set?"
+msgstr "Privilégios configurados?"
+
+msgid "Any"
+msgstr "Todos"
+
+msgid "Yes"
+msgstr "Sim"
+
+msgid "No"
+msgstr "Não"
+
+msgid "Plugins ACL"
+msgstr "Plugins ACL"
+
+msgid "Plugins Options"
+msgstr "Opções dos plugins"
+
+msgid "Settings"
+msgstr "Configurações"
+
+msgid "Options"
+msgstr "Opções"
+
+msgid "Login name"
+msgstr "Login"
+
+msgid "Retype Password"
+msgstr "Redigite a senha"
+
+msgid "Full Name"
+msgstr "Nome completo"
+
+msgid "e-mail"
+msgstr "E-mail"
+
+msgid "Preferred language"
+msgstr "Idioma de preferência"
+
+msgid "Active"
+msgstr "Ativo"
+
+msgid "Are you sure you want to delete the selected banned ips?"
+msgstr "Tem certeza que deseja remover os IPs banidos selecionados?"
+
+msgid "Are you sure you want to delete the selected banned ip?"
+msgstr "Tem certeza que deseja remover o IP banido selecionado?"
+
+msgid "Are you sure you want to delete the selected languages?"
+msgstr "Tem certeza que deseja remover os idiomas selecionados?"
+
+msgid "Are you sure you want to delete the selected language?"
+msgstr "Tem certeza que deseja remover o idioma selecionado?"
+
+msgid "Locale"
+msgstr "Local"
+
+msgid "Browser recon"
+msgstr "Browser recon"
+
+msgid "Charset"
+msgstr "Charset"
+
+msgid "Plugin does not have any option to be configured"
+msgstr "Plugin não tem opções de configuração"
+
+msgid "Translation module"
+msgstr "Módulo de tradução"
+
+msgid "Select one"
+msgstr "Selecione um"
+
+msgid "Default language"
+msgstr "Idioma default"
+
+msgid "Authentication module"
+msgstr "Módulo de autenticação"
+
+msgid "(LDAP Configuration needs to be done<br /> by hand for now)"
+msgstr "(Por enquanto, a configuração LDAP deve ser feita manualmente)"
+
+msgid "Site title"
+msgstr "Título do site"
+
+msgid "WebMaster E-mail"
+msgstr "E-mail do webmaster (administrador do site)"
+
+msgid "Site E-mail"
+msgstr "E-mail do site"
+
+msgid "Confirm registration with e-mail"
+msgstr "Confirmar registro através de e-mail"
+
+msgid "Template"
+msgstr "Template"
+
+msgid "Template Footer"
+msgstr "Rodapé do Template"
+
+msgid "Maximum upload size (in MB)"
+msgstr "Tamanho máximo de upload (em MB)"
+
+msgid "Maximum download time (in Min)"
+msgstr "Tempo máximo de download (em minutos)"
+
+msgid "0 disables it"
+msgstr "0 torna desativado"
+
+msgid "Max num. of file uploaded per upload"
+msgstr "Número máximo de arquivos enviados por upload"
+
+msgid "Use shorter links?"
+msgstr "Utilizar links curtos?"
+
+msgid "Length of IDs (suggested min 6)"
+msgstr "Tamanho dos identificadores (mínimo sugerido de 6)"
+
+msgid "Use alphanumerical IDs?"
+msgstr "Utilizar identificadores alfanuméricos?"
+
+msgid "Allow unprotected file removal?"
+msgstr "Permitir remoção desprotegida de arquivos?"
+
+msgid "Upload tracking method"
+msgstr "Método de acompanhamento de upload"
+
+msgid "Enable activity logging?"
+msgstr "Habilitar registro de atividades?"
+
+msgid "Database logging level"
+msgstr "Nível de log no banco de dados"
+
+msgid "Syslog logging level"
+msgstr "Nível de log no Syslog"
+
+msgid "Save Changes"
+msgstr "Salvar modificações"
+
+msgid "Download config file"
+msgstr "Download do arquivo de configuração"
+
+msgid "This are the configured settings for a review"
+msgstr "Estas são as configurações atuais"
+
+msgid "Filter"
+msgstr "Filtros"
+
+msgid "All"
+msgstr "Todos"
+
+msgid "Errors"
+msgstr "Erros"
+
+msgid "Security"
+msgstr "Segurança"
+
+msgid "Warnings"
+msgstr "Alertas"
+
+msgid "Notice"
+msgstr "Notificação"
+
+msgid "Info"
+msgstr "Informação"
+
+msgid "Date"
+msgstr "Data"
+
+msgid "Type"
+msgstr "Tipo"
+
+msgid "User"
+msgstr "Usuário"
+
+msgid "Module"
+msgstr "Módulo"
+
+msgid "Action"
+msgstr "Ação"
+
+msgid "Real Action"
+msgstr "Ação real"
+
+msgid "Result"
+msgstr "Resultado"
+
+msgid "Additional Info"
+msgstr "Informação adicional"
+
+msgid "Maintenence"
+msgstr "Manutenção"
+
+msgid "This options let you delete files based on some options."
+msgstr "Estas opções permitem a remoção de arquivos baseada em algumas opções."
+
+msgid "Please select one or more criteria for file deletion"
+msgstr "Por favor, selecione um ou mais critérios para remoção de arquivos"
+
+msgid "Delete files older than"
+msgstr "Remover arquivos mais antigos que"
+
+msgid "days"
+msgstr "dias"
+
+msgid "Which user name is"
+msgstr "Que o nome do usuário seja"
+
+msgid "Which upload day is"
+msgstr "Que o dia de upload seja"
+
+msgid "Which size is bigger than"
+msgstr "Que o tamanho seja maior que"
+
+msgid "Proceed"
+msgstr "Continuar"
+
+msgid "Expiration plugin"
+msgstr "Plugin de expiração"
+
+msgid "To delete files marked as expired by the expire plugin press the \"Delete expired\" button."
+msgstr "Para apagar os arquivos expirados pelo plugin de expiração, clique no botão \"Apagar Expirados\"."
+
+msgid "Delete expired"
+msgstr "Apagar Expirados"
+
+msgid "Are you sure you want to delete the selected users?"
+msgstr "Tem certeza que deseja apagar os usuários selecionados?"
+
+msgid "Are you sure you want to delete the selected user?"
+msgstr "Tem certeza que deseja apagar o usuário selecionado?"
+
+msgid "Login"
+msgstr "Entrar"
+
+msgid "E-mail"
+msgstr "E-mail"
+
+msgid "Plugins"
+msgstr "Plugins"
+
+msgid "Files"
+msgstr "Arquivos"
+
+msgid "Users"
+msgstr "Usuários"
+
+msgid "Groups"
+msgstr "Grupos"
+
+msgid "Rights"
+msgstr "Permissões"
+
+msgid "Languages"
+msgstr "Idiomas"
+
+msgid "Banned"
+msgstr "Banidos"
+
+msgid "Logs"
+msgstr "Logs"
+
+msgid "Deletion Result"
+msgstr "Resultado da remoção"
+
+msgid "The following files have been deleted."
+msgstr "Os seguintes arquivos foram removidos."
+
+msgid "The following files will be deleted, proceed?"
+msgstr "Os seguintes arquivos serão removidos, continuar?"
+
+msgid "Yes, delete all"
+msgstr "Sim, remover todos"
+
+msgid "No files matched the criteria"
+msgstr "Nenhum arquivo atente ao critério"
+
+msgid "Back to Maintenance"
+msgstr "Retornar para Manutenção"
+
+msgid "Are you sure you want to delete the selected groups?"
+msgstr "Tem certeza que deseja remover os grupos selecionados?"
+
+msgid "Are you sure you want to delete the selected group?"
+msgstr "Tem certeza que deseja remover o grupo selecionado?"
+
+msgid "Group Name"
+msgstr "Nome do Grupo"
+
+msgid "Here you can administer"
+msgstr "Utilitários administrativos"
+
+msgid "Banned IPs"
+msgstr "IP's banidos"
+
+msgid "Logs / Statistics"
+msgstr "Logs / Estatísticas"
+
+msgid "PLEASE BE CAREFULL WHEN MODIFING THE RIGHTS!"
+msgstr "CUIDADO AO ALTERAR OS PRIVILÉGIOS!"
+
+msgid "Editing rights for group"
+msgstr "Edição de privilégios para grupo"
+
+msgid "Right"
+msgstr "Privilégio"
+
+msgid "Resulting ACL"
+msgstr "ACL Resultado"
+
+msgid "From ACL"
+msgstr "ACL Original"
+
+msgid "default"
+msgstr "Defaut"
+
+msgid "<< Back"
+msgstr "<< Retornar"
+
+msgid "Apply changes"
+msgstr "Aplicar mudanças"
+
+msgid "Files List"
+msgstr "Lista de arquivos"
+
+msgid "Maintenance"
+msgstr "Manutenção"
+
+msgid "Are you sure you want to delete the selected files?"
+msgstr "Tem certeza que deseja remover os arquivos selecionados?"
+
+msgid "Are you sure you want to delete the selected file?"
+msgstr "Tem certeza que deseja remover o arquivo selecionado?"
+
+msgid "Id"
+msgstr "Id"
+
+msgid "Upload Date"
+msgstr "Data do envio"
+
+msgid "The file you requested the removal needs some input before you can proceed"
+msgstr "A operação de remoção requer alguns dados para prosseguir"
+
+msgid "Download link"
+msgstr "Link para Download"
+
+msgid "Remove link"
+msgstr "Link para Remoção"
+
+msgid "Upload a new file"
+msgstr "Enviar novo arquivo"
+
+msgid "Uploading"
+msgstr "Enviando"
+
+msgid "please wait ..."
+msgstr "Aguarde ..."
+
+msgid "Please enter the File Information requested"
+msgstr "Por favor digite a informação necesária"
+
+msgid "File code"
+msgstr "Código do arquivo"
+
+msgid "File description"
+msgstr "Descrição do arquivo"
+
+msgid "File name"
+msgstr "Nome do arquivo"
+
+msgid "File size"
+msgstr "Tamanho do arquivo"
+
+msgid "Select the file to be uploaded"
+msgstr "Selecione o arquivo a ser enviado"
+
+msgid "Maximum allowed upload size"
+msgstr "Tamanho máximo permitido para envio"
+
+msgid "Upload"
+msgstr "Enviar"
+
+msgid "The file you requested the download needs some input before you can proceed"
+msgstr "A operação de download requer alguns dados para prosseguir"
+
+msgid "You can now proceed downloading the file"
+msgstr "Você pode agora fazer download do arquivo"
+
+msgid "Uploaded on"
+msgstr "Enviado em "
+
+msgid "Download file"
+msgstr "Download do arquivo"
+
+msgid "Complete upload"
+msgstr "Concluir envio"
+
+msgid "FILE HAS BEEN SUCCESSFULLY REMOVED"
+msgstr "ARQUIVO REMOVIDO COM SUCESSO"
+
+msgid "You requested to remove the following file"
+msgstr "Você selecionou a remoção do seguinte arquivo"
+
+msgid "Confirm removal"
+msgstr "Confirmar remoção"
+
+msgid "Dear "
+msgstr "Prezado"
+
+msgid "This e-mail message is sent to you to confirm your account registration has a valid e-mail address."
+msgstr "Esta mensagem foi enviada a você para que confirme que o registro foi feito com um endereço válido de e-mail."
+
+msgid "Open the following link in a browser to confirm your account."
+msgstr "Abra o link abaixo em um navegador para ativar sua conta."
+
+msgid "Best regards"
+msgstr "Atenciosamente"
+
+msgid "User login"
+msgstr "Login usuário"
+
+msgid "User name"
+msgstr "Nome usuário"
+
+msgid "You don't have an account?"
+msgstr "Não tem uma conta?"
+
+msgid "Register here"
+msgstr "Registre-se aqui"
+
+msgid "or you can"
+msgstr "ou então, você pode"
+
+msgid "Login here"
+msgstr "Entrar aqui"
+
+msgid "Language"
+msgstr "Idioma"
+
+msgid "Change"
+msgstr "Mudar"
+
+msgid "Registration succeeded"
+msgstr "Registro concluído com sucesso"
+
+msgid "An e-mail has been sent for the account activation"
+msgstr "Um e-mail foi enviado para concluir a ativação da conta"
+
+msgid "Please follow the e-mail instructions to activate your account."
+msgstr "Por favor, siga as instruções do e-mail para ativar sua conta."
+
+msgid "back to home"
+msgstr "Voltar ao início"
+
+msgid "Old password"
+msgstr "Senha atual"
+
+msgid "New password"
+msgstr "Nova senha"
+
+msgid "Retype password"
+msgstr "Redigite a senha"
+
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgid "Your account registration has been confirmed."
+msgstr "Sua inscrição está confirmada."
+
+msgid "You can now proceed with the login"
+msgstr "Você agora pode seguir para o login"
+
+msgid "here"
+msgstr "aqui"
+

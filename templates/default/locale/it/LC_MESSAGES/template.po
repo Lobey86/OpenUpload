@@ -1,0 +1,982 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenUpload default template\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-03-03 11:37+0100\n"
+"PO-Revision-Date: 2009-03-06 22:44+0100\n"
+"Last-Translator: Alessandro Briosi <tsdogs@briosix.org>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /home/alex/devel/php/openupload/trunk/templates/default\n"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:2
+msgid "Your IP has been blocked!"
+msgstr "Il tuo IP è bloccato!"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:5
+msgid "You cannot use this site."
+msgstr "Non puoi utilizzare questo sito."
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:8
+msgid "If you think this is a misconfiguration please send an email to the site owner"
+msgstr "Se pensi sia un errore di configurazione, invia una e-mail al proprietario del sito"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:11
+msgid "Captcha code"
+msgstr "Codice Captcha"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:14
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:20
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:32
+msgid "Reload Image"
+msgstr "Ricarica immagine"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:17
+msgid "Please enter the following captcha to proceed for the removal"
+msgstr "Prego inserire il seguente codice captcha per procedere alla rimozione"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:23
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:44
+msgid "Protection"
+msgstr "Protezione"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:26
+msgid "Captcha"
+msgstr "Captcha"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:29
+msgid "Please enter the following captcha to proceed for the download"
+msgstr "Prego inserire il seguente codice captch per procedere al download"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:35
+msgid "Use Captcha"
+msgstr "Utilizza Captcha"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:38
+msgid "Compress the files"
+msgstr "Comprimi i files"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:41
+msgid "No compression"
+msgstr "Nessuna compressione"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:47
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:53
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:68
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:89
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:245
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:737
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:941
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:992
+msgid "Password"
+msgstr "Password"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:50
+msgid "The download is password protected."
+msgstr "Il file è protetto da una password."
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:56
+msgid "Password protect"
+msgstr "Password di protezione"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:59
+msgid "Send password in e-mail"
+msgstr "Invia la password nell'e-mail"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:62
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:83
+msgid "You are receiving this message because someone uploaded a file on our OpenUpload server for you."
+msgstr "Hai ricevuto questo messaggio perchè qualcuno ti ha inviato un file attraverso il nostro server OpenUpload."
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:65
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:86
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:206
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:215
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:293
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:644
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:791
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:887
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:911
+msgid "Description"
+msgstr "Descrizione"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:71
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:92
+msgid "User message"
+msgstr "Messaggio"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:74
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:95
+msgid "To download the file open the following link in a browser"
+msgstr "Per scaricare il file apri il seguente link in un browser"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:77
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:98
+msgid "To remove the file from our server open the following link in a browser"
+msgstr "Per rimuovere il file dai ns. server apri il link seguente in un browser"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:80
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:101
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:968
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:983
+msgid "For complains please send an email to"
+msgstr "Per segnalazioni di abuso prego inviare una email a "
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:104
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:125
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:131
+msgid "Send me an e-mail"
+msgstr "Inviami una e-mail"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:107
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:122
+msgid "Send"
+msgstr "Invia"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:110
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:134
+msgid "Send e-mail to"
+msgstr "Invia e-mail a"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:113
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:137
+msgid "Send remove link"
+msgstr "Invia link per la rimozione"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:116
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:140
+msgid "e-mail Subject"
+msgstr "Oggetto e-mail"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:119
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:143
+msgid "e-mail Message"
+msgstr "Messaggio e-mail"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:128
+msgid "Your e-mail address"
+msgstr "Il tuo indirizzo e-mail"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:146
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:149
+msgid "Expires on"
+msgstr "Scadenza"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:152
+msgid "Only the following mime types are allowed"
+msgstr "Solo i seguenti tipi di files possono essere caricati"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:155
+msgid "Are you sure you want to delete the selected plugins?"
+msgstr "Sei sicuro di voler eliminare i plugin selezionati?"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:158
+msgid "Are you sure you want to delete the selected plugin?"
+msgstr "Sei sicuro di voler eliminare il plugin selezionato?"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:161
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:275
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:767
+msgid "S"
+msgstr "S"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:164
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:302
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:323
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:437
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:827
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:905
+msgid "ID"
+msgstr "ID"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:167
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:179
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:290
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:497
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:623
+msgid "Plugin"
+msgstr "Plugin"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:170
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:182
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:257
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:317
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:347
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:554
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:626
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:707
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:728
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:749
+msgid "Group"
+msgstr "Gruppo"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:173
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:185
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:194
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:281
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:614
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:629
+msgid "Access"
+msgstr "Accesso"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:176
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:287
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:314
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:350
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:563
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:647
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:785
+msgid "Actions"
+msgstr "Azioni"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:188
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:620
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:758
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:794
+msgid "Add"
+msgstr "Aggiungi"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:191
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:278
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:611
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:779
+msgid "IP"
+msgstr "IP"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:197
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:284
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:617
+msgid "Priority"
+msgstr "Priorità"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:200
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:209
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:266
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:320
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:341
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:455
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:632
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:731
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:1061
+msgid "Confirm"
+msgstr "Conferma"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:203
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:305
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:326
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:440
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:551
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:773
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:788
+msgid "Name"
+msgstr "Nome Completo"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:218
+msgid "Rights set?"
+msgstr "Permessi impostati?"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:221
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:686
+msgid "Any"
+msgstr "Tutti"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:224
+msgid "Yes"
+msgstr "Si"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:227
+msgid "No"
+msgstr "No"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:230
+msgid "Plugins ACL"
+msgstr "ACL Plugins"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:233
+msgid "Plugins Options"
+msgstr "Opzioni Plugin"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:236
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:566
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:653
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:239
+msgid "Options"
+msgstr "Opzioni"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:242
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:734
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:938
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:1010
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:1037
+msgid "Login name"
+msgstr "Nome utente"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:248
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:740
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:944
+msgid "Retype Password"
+msgstr "Reinserisci password"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:251
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:743
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:947
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:1013
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:1040
+msgid "Full Name"
+msgstr "Nome Completo"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:254
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:746
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:950
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:1016
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:1043
+msgid "e-mail"
+msgstr "E-mail"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:260
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:752
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:953
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:1046
+msgid "Preferred language"
+msgstr "Lingua"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:263
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:311
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:338
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:452
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:560
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:755
+msgid "Active"
+msgstr "Attivo"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:269
+msgid "Are you sure you want to delete the selected banned ips?"
+msgstr "Sei sicuro di voler eliminare gli IP selezionati?"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:272
+msgid "Are you sure you want to delete the selected banned ip?"
+msgstr "Sei sicuro di voler eliminare l'IP selezionato?"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:296
+msgid "Are you sure you want to delete the selected languages?"
+msgstr "Sei sicuro di voler eliminare le lingue selezionate?"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:299
+msgid "Are you sure you want to delete the selected language?"
+msgstr "Sei sicuro di voler eliminare la lingua selezionata?"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:308
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:329
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:443
+msgid "Locale"
+msgstr "Localizzazione"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:332
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:446
+msgid "Browser recon"
+msgstr "Riconoscimento Browser"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:335
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:449
+msgid "Charset"
+msgstr "Charset"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:344
+msgid "Plugin does not have any option to be configured"
+msgstr "Questo plugin non necessita di alcuna configurazione"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:353
+msgid "Translation module"
+msgstr "Traduci con"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:356
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:368
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:386
+msgid "Select one"
+msgstr "Seleziona"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:359
+msgid "Default language"
+msgstr "Lingua Predefinita"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:362
+msgid "Authentication module"
+msgstr "Modulo Authenticazione"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:365
+msgid "(LDAP Configuration needs to be done<br /> by hand for now)"
+msgstr "(La configurazione del modulo LDAP <br />deve essere fatta a mano per ora)"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:371
+msgid "Site title"
+msgstr "Titolo Sito"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:374
+msgid "WebMaster E-mail"
+msgstr "E-Mail WebMaster"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:377
+msgid "Site E-mail"
+msgstr "E-mail Sito"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:380
+msgid "Confirm registration with e-mail"
+msgstr "Conferma registrazioni via e-mail"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:383
+msgid "Template"
+msgstr "Template"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:389
+msgid "Template Footer"
+msgstr "Piede del Template"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:392
+msgid "Maximum upload size (in MB)"
+msgstr "Dimensione massima di upload"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:395
+msgid "Maximum download time (in Min)"
+msgstr "Tempo massimo per il download (in Min)"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:398
+msgid "0 disables it"
+msgstr "0 lo disabilita"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:401
+msgid "Max num. of file uploaded per upload"
+msgstr "Massimo num. di file per cui fare l'upload"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:404
+msgid "Use shorter links?"
+msgstr "Utilizza link corti?"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:407
+msgid "Length of IDs (suggested min 6)"
+msgstr "Lunghezza delle ID (min. 6)"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:410
+msgid "Use alphanumerical IDs?"
+msgstr "Utilizza ID alfanumeriche?"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:413
+msgid "Allow unprotected file removal?"
+msgstr "Consenti rimozione non protetta?"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:416
+msgid "Upload tracking method"
+msgstr "Metodo controllo stato upload"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:419
+msgid "Enable activity logging?"
+msgstr "Abilita i log?"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:422
+msgid "Database logging level"
+msgstr "Livello log su database"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:425
+msgid "Syslog logging level"
+msgstr "Livello log in Syslog"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:428
+msgid "Save Changes"
+msgstr "Salva Modifiche"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:431
+msgid "Download config file"
+msgstr "Download file di configurazione"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:434
+msgid "This are the configured settings for a review"
+msgstr "Questa è l'attuale configurazione"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:458
+msgid "Filter"
+msgstr "Filtro"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:461
+msgid "All"
+msgstr "Tutti"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:464
+msgid "Errors"
+msgstr "Errori"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:467
+msgid "Security"
+msgstr "Sicurezza"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:470
+msgid "Warnings"
+msgstr "Avvertenze"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:473
+msgid "Notice"
+msgstr "Notifiche"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:476
+msgid "Info"
+msgstr "Info"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:479
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:833
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:914
+msgid "Date"
+msgstr "Data"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:482
+msgid "Type"
+msgstr "Tipo"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:485
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:776
+msgid "User"
+msgstr "Utente"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:488
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:689
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:710
+msgid "Module"
+msgstr "Modulo"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:491
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:692
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:713
+msgid "Action"
+msgstr "Azione"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:494
+msgid "Real Action"
+msgstr "Azione Reale"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:500
+msgid "Result"
+msgstr "Risultato"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:503
+msgid "Additional Info"
+msgstr "Info agg."
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:506
+msgid "Maintenence"
+msgstr "Manutenzione"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:509
+msgid "This options let you delete files based on some options."
+msgstr "Questa sezione permette di eliminare i file in base a dei criteri."
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:512
+msgid "Please select one or more criteria for file deletion"
+msgstr "Seleziona uno o più criteri per l'eliminazione"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:515
+msgid "Delete files older than"
+msgstr "Elimina file più vecchi di"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:518
+msgid "days"
+msgstr "giorni"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:521
+msgid "Which user name is"
+msgstr "Dove l'utente è"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:524
+msgid "Which upload day is"
+msgstr "Dove il giorno di upload è"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:527
+msgid "Which size is bigger than"
+msgstr "Dove la dimensione è maggiore di"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:530
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:800
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:824
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:860
+msgid "Proceed"
+msgstr "Procedi"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:533
+msgid "Expiration plugin"
+msgstr "Plugin di Scadenza"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:536
+msgid "To delete files marked as expired by the expire plugin press the \"Delete expired\" button."
+msgstr "Per eliminare i file scaduti dall'expire plugin clicca su \"Elimina scaduti\"."
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:539
+msgid "Delete expired"
+msgstr "Elimina scaduti"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:542
+msgid "Are you sure you want to delete the selected users?"
+msgstr "Sei sicuro di voler eliminare gli utenti selezionati?"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:545
+msgid "Are you sure you want to delete the selected user?"
+msgstr "Sei sicuro di voler eliminare l'utente selezionato?"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:548
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:995
+msgid "Login"
+msgstr "Accedi"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:557
+msgid "E-mail"
+msgstr "E-mail"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:569
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:656
+msgid "Plugins"
+msgstr "Plugin"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:572
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:659
+msgid "Files"
+msgstr "File"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:575
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:662
+msgid "Users"
+msgstr "Utenti"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:578
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:665
+msgid "Groups"
+msgstr "Gruppi"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:581
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:668
+msgid "Rights"
+msgstr "Permessi"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:584
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:671
+msgid "Languages"
+msgstr "Lingua"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:587
+msgid "Banned"
+msgstr "Bloccato"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:590
+msgid "Logs"
+msgstr "Log"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:593
+msgid "Deletion Result"
+msgstr "Risultato eliminazione"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:596
+msgid "The following files have been deleted."
+msgstr "I seguenti file sono stati eliminati."
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:599
+msgid "The following files will be deleted, proceed?"
+msgstr "I seguenti file saranno eliminati, procedere?"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:602
+msgid "Yes, delete all"
+msgstr "Si, eliminali tutti"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:605
+msgid "No files matched the criteria"
+msgstr "Nessun file trovato"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:608
+msgid "Back to Maintenance"
+msgstr "Torna alla Manutenzione"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:635
+msgid "Are you sure you want to delete the selected groups?"
+msgstr "Sei sicuro di voler eliminare i gruppi selezionati?"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:638
+msgid "Are you sure you want to delete the selected group?"
+msgstr "Sei sicuro di voler eliminare il gruppo selezionato?"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:641
+msgid "Group Name"
+msgstr "Nome Gruppo"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:650
+msgid "Here you can administer"
+msgstr "In questa sezione puoi amministrare"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:674
+msgid "Banned IPs"
+msgstr "IP bloccati"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:677
+msgid "Logs / Statistics"
+msgstr "Log / Statistiche"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:680
+msgid "PLEASE BE CAREFULL WHEN MODIFING THE RIGHTS!"
+msgstr "PREGO FARE ATTENZIONE NELLA MODIFICA DEI PERMESSI!"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:683
+msgid "Editing rights for group"
+msgstr "Modifica permessi per il gruppo"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:695
+msgid "Right"
+msgstr "Permesso"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:698
+msgid "Resulting ACL"
+msgstr "ACL risultante"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:701
+msgid "From ACL"
+msgstr "Da ACL"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:704
+msgid "default"
+msgstr "default"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:716
+msgid "<< Back"
+msgstr "<< Indietro"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:719
+msgid "Apply changes"
+msgstr "Applica modifiche"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:722
+msgid "Files List"
+msgstr "Lista File"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:725
+msgid "Maintenance"
+msgstr "Manutenzione"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:761
+msgid "Are you sure you want to delete the selected files?"
+msgstr "Sei sicuro di voler eliminare i file selezionati?"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:764
+msgid "Are you sure you want to delete the selected file?"
+msgstr "Sei sicuro di voler eliminare il file selezionato?"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:770
+msgid "Id"
+msgstr "Id"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:782
+msgid "Upload Date"
+msgstr "Data"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:797
+msgid "The file you requested the removal needs some input before you can proceed"
+msgstr "Prima di eliminare il file, è necessario compilare i campi obbligatori"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:803
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:842
+msgid "Download link"
+msgstr "Link per lo scaricamento"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:806
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:845
+msgid "Remove link"
+msgstr "Link per la rimozione"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:809
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:902
+msgid "Upload a new file"
+msgstr "Carica un nuovo file"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:812
+msgid "Uploading"
+msgstr "Caricamento"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:815
+msgid "please wait ..."
+msgstr "attendere prego ..."
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:818
+msgid "Please enter the File Information requested"
+msgstr "Prego inserire le informazioni sul File"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:821
+msgid "File code"
+msgstr "Codice file"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:830
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:866
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:896
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:923
+msgid "File description"
+msgstr "Descrizione"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:836
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:872
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:881
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:908
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:926
+msgid "File name"
+msgstr "Nome file"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:839
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:875
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:884
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:917
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:929
+msgid "File size"
+msgstr "Dimensione"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:848
+msgid "Select the file to be uploaded"
+msgstr "Seleziona il file da caricare"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:851
+msgid "Maximum allowed upload size"
+msgstr "Dimensione massima di upload"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:854
+msgid "Upload"
+msgstr "Carica"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:857
+msgid "The file you requested the download needs some input before you can proceed"
+msgstr "Prima di scaricare il file, è necessario compilare i campi obbligatori"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:863
+msgid "You can now proceed downloading the file"
+msgstr "Puoi ora procedere allo scaricamento del file"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:869
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:899
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:932
+msgid "Uploaded on"
+msgstr "Caricato il"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:878
+msgid "Download file"
+msgstr "Scarica file"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:890
+msgid "Complete upload"
+msgstr "Completa caricamento"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:893
+msgid "FILE HAS BEEN SUCCESSFULLY REMOVED"
+msgstr "IL FILE E' STATO RIMOSSO CON SUCCESSO"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:920
+msgid "You requested to remove the following file"
+msgstr "Hai richiesto la rimozione del seguente file"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:935
+msgid "Confirm removal"
+msgstr "Conferma rimozione"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:956
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:971
+msgid "Dear "
+msgstr "Egregio"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:959
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:974
+msgid "This e-mail message is sent to you to confirm your account registration has a valid e-mail address."
+msgstr "Questo messaggio ti è stato inviato per confermare che il tuo account abbia un indirizzo e-mail valido"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:962
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:977
+msgid "Open the following link in a browser to confirm your account."
+msgstr "Apri il seguente indirizzo in un browser per confermare il tuo account."
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:965
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:980
+msgid "Best regards"
+msgstr "Cordiali saluti"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:986
+msgid "User login"
+msgstr "Login utente"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:989
+msgid "User name"
+msgstr "Nome Utente"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:998
+msgid "You don't have an account?"
+msgstr "Non possiedi un account?"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:1001
+msgid "Register here"
+msgstr "Registrati qui"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:1004
+msgid "or you can"
+msgstr "oppure puoi"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:1007
+msgid "Login here"
+msgstr "Accedere qui"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:1019
+msgid "Language"
+msgstr "Lingua"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:1022
+msgid "Change"
+msgstr "Modifica"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:1025
+msgid "Registration succeeded"
+msgstr "Registrazione avvenuta con successo"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:1028
+msgid "An e-mail has been sent for the account activation"
+msgstr "Un'email ti è stata inviata per confermare l'attivazione del tuo account"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:1031
+msgid "Please follow the e-mail instructions to activate your account."
+msgstr "Segui le istruzioni dell'e-mail per attivare il tuo account."
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:1034
+msgid "back to home"
+msgstr "torna alla pagina principale"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:1049
+msgid "Old password"
+msgstr "Vecchia Password"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:1052
+msgid "New password"
+msgstr "Nuova Password"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:1055
+msgid "Retype password"
+msgstr "Reinserisci password"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:1058
+msgid "Cancel"
+msgstr "Annulla"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:1064
+msgid "Your account registration has been confirmed."
+msgstr "La registrazione del tuo account ha avuto successo."
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:1067
+msgid "You can now proceed with the login"
+msgstr "Puoi ora procedere al login"
+
+#: /home/alex/devel/php/openupload/trunk/templates/default/default.c:1070
+msgid "here"
+msgstr "quì"
+
+#~ msgid "Additional file upload"
+#~ msgstr "File aggiuntivo"
+#~ msgid "File ID"
+#~ msgstr "ID File"
+

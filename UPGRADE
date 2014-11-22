@@ -1,0 +1,22 @@
+IMPORTANT
+Before any upgrade be sure to have a backup of the database and the configuration.
+
+FROM v0.4.1 TO v0.4.2
+
+1. Replace all files in the following files and directories (www/config.inc.php does not need to be touched):
+* www
+* templates
+* lib
+* locale
+* plugins
+
+
+You might need to reapply changes to the templates if you made any.
+
+2. Connect to your openupload installation and login as administrator:
+http://<yourserver>/<openupload>/
+
+3. Go to the administration page
+4. Follow the "Upgrade to v0.4.2" link
+5. IMPORTANT: check your logs for any error
+
